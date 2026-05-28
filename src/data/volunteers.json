@@ -522,15 +522,15 @@
     "roles": [
       {
         "team": "Front-end",
-        "position": "Front-end Lead",
-        "teamLead": true,
+        "position": "Front-end Developer",
+        "teamLead": false,
         "status": true
       },
       {
         "team": "Core",
         "position": "Front-end Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
