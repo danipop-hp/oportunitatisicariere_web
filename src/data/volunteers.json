@@ -381,14 +381,14 @@
       {
         "team": "Front-end",
         "position": "Front-end Developer",
-        "teamLead": false,
+        "teamLead": true,
         "status": true
       },
       {
         "team": "Core",
         "position": "Front-end Lead",
         "teamLead": false,
-        "status": false
+        "status": true
       }
     ],
     "socials": {
