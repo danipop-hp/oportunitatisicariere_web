@@ -336,7 +336,7 @@
         "team": "Data Quality",
         "position": "Data Quality Tester",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "Cybersecurity",
@@ -349,6 +349,97 @@
       "linkedin": "https://www.linkedin.com/in/beatrix-racasanu-14507411b/",
       "github": "https://github.com/iBixee",
       "discord": "https://discord.com/users/377879793934532619"
+    }
+  },
+  {
+    "name": "Elena Istratescu",
+    "avatar": "./assets/contributors/elena-istratescu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/elena-ramona-istratescu-680564299/",
+      "github": "https://github.com/Elena1303996",
+      "discord": "https://discord.com/users/1197172023709925418"
+    }
+  },
+  {
+    "name": "Cătălina Ion",
+    "avatar": "./assets/contributors/catalina-ion.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/catalina-ion-3b62a61a9/",
+      "github": "https://github.com/Catalinay",
+      "discord": "https://discord.com/users/1036049771955245096"
+    }
+  },
+  {
+    "name": "Ionuț Pintilie",
+    "avatar": "./assets/contributors/ionut-pintilie.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/ionut-pintilie-qa-engineer/",
+      "github": "https://github.com/yonutzu",
+      "discord": "https://discord.com/users/1046720699324190750"
+    }
+  },
+  {
+    "name": "Bogdan Dumitrache",
+    "avatar": "./assets/contributors/bogdan-dumitrache.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/dumitrache-bogdan-aa03b31a4/",
+      "github": "https://github.com/bogi1492",
+      "discord": "https://discord.com/users/1217732447618207835"
+    }
+  },
+  {
+    "name": "Camelia Melinte",
+    "avatar": "./assets/contributors/camelia-melinte.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/cameliaamelinte/",
+      "github": "https://github.com/CameliaAM",
+      "discord": "https://discord.com/users/495991348386594818"
     }
   },
   {
@@ -375,20 +466,71 @@
     }
   },
   {
+    "name": "Răzvan Gradea",
+    "avatar": "./assets/contributors/razvan-gradea.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/gradea-razvan-b33493269/",
+      "github": "https://github.com/Razvan002?tab=repositories",
+      "discord": "https://discord.com/users/273543768651595787"
+    }
+  },
+  {
+    "name": "Georgiana Redenstein",
+    "avatar": "./assets/contributors/georgiana-redenstein.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/georgiana-redenstein/",
+      "github": "https://github.com/Georgianaredenstein",
+      "discord": "https://discord.com/users/1027873494110842892"
+    }
+  },
+  {
+    "name": "Andreea Dima",
+    "avatar": "./assets/contributors/andreea-dima.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/andreea-valentina-dima/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "https://github.com/Luvnrj",
+      "discord": "https://discord.com/users/1245250057263906928"
+    }
+  },
+  {
     "name": "Adelina Moroacă",
     "avatar": "./assets/contributors/adelina-moroaca.webp",
     "roles": [
       {
         "team": "Front-end",
         "position": "Front-end Developer",
-        "teamLead": true,
+        "teamLead": false,
         "status": true
       },
       {
         "team": "Core",
         "position": "Front-end Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -518,6 +660,23 @@
     }
   },
   {
+    "name": "Mădălina Andon",
+    "avatar": "./assets/contributors/madalina-andon.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/madalina-andon/",
+      "github": "https://github.com/MadalinaCodes",
+      "discord": "https://discordapp.com/users/694204138099179640"
+    }
+  },
+  {
     "name": "Cristina Apostol",
     "avatar": "./assets/contributors/cristina-apostol.webp",
     "roles": [
@@ -525,19 +684,82 @@
         "team": "QA",
         "position": "Manual Tester",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "Data Quality",
         "position": "Data Quality Tester",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
       "linkedin": "https://www.linkedin.com/in/cristina-apostol-7a3286a3/",
       "github": "https://github.com/CrisA24",
       "discord": "https://discordapp.com/users/1249757700842324048"
+    }
+  },
+  {
+    "name": "Lucian Lodin",
+    "avatar": "./assets/contributors/lucian-lodin.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/lodin-lucian-30527a294",
+      "github": "https://github.com/LucianLCI",
+      "discord": "https://discordapp.com/users/1008413517621248090"
+    }
+  },
+  {
+    "name": "Caterina Bocaniciu",
+    "avatar": "./assets/contributors/caterina-bocaniciu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/caterina-bocaniciu-121033305",
+      "github": "https://github.com/catiboc",
+      "discord": "https://discordapp.com/users/1159540890331791452"
+    }
+  },
+  {
+    "name": "Loredana Pelle",
+    "avatar": "./assets/contributors/loredana-pelle.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/loredana-pelle?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "https://github.com/Lore78",
+      "discord": "https://discordapp.com/users/1222629327116435517"
     }
   },
   {
@@ -561,6 +783,80 @@
       "linkedin": "https://www.linkedin.com/in/carmen-ut/",
       "github": "https://github.com/CarmenSteliana",
       "discord": "https://discordapp.com/users/1256989150847041618"
+    }
+  },
+  {
+    "name": "Georgiana Radu",
+    "avatar": "./assets/contributors/georgiana-radu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "http://linkedin.com/in/georgiana-radu-58266b318",
+      "github": "#",
+      "discord": "https://discordapp.com/users/1215009048219623424"
+    }
+  },
+  {
+    "name": "Radu Lutu",
+    "avatar": "./assets/contributors/radu-lutu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/radu-l-b37409252/",
+      "github": "https://github.com/RaduLutu",
+      "discord": "https://discordapp.com/users/1281279200950747211"
+    }
+  },
+  {
+    "name": "Andreea Plugaru",
+    "avatar": "./assets/contributors/person-placeholder.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Cybersecurity",
+        "position": "Junior Security Analyst",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/andreea-plugaru-1a496ba8",
+      "github": "https://github.com/aplugaru",
+      "discord": "https://discordapp.com/users/1145392030873288784"
+    }
+  },
+  {
+    "name": "Roxana Danalache",
+    "avatar": "./assets/contributors/roxana-danalache.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "http://www.linkedin.com/in/roxana-danalache",
+      "github": "https://github.com/RoxanaDanalache",
+      "discord": "https://discordapp.com/users/1263147842193850472"
     }
   },
   {
@@ -615,6 +911,52 @@
     }
   },
   {
+    "name": "Daniela Popa",
+    "avatar": "./assets/contributors/daniela-popa.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/daniela-popa/",
+      "github": "https://github.com/Popa-Daniela",
+      "discord": "https://discordapp.com/users/1247218477123502132"
+    }
+  },
+  {
+    "name": "Livia Hriscu",
+    "avatar": "./assets/contributors/livia-hriscu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/livia-hriscu-7410ab10/",
+      "github": "https://github.com/liviahriscu",
+      "discord": "https://discordapp.com/users/1173597104426467330"
+    }
+  },
+  {
     "name": "Iurie Chigai",
     "avatar": "./assets/contributors/iurie-chigai.webp",
     "roles": [
@@ -629,6 +971,23 @@
       "linkedin": "https://www.linkedin.com/in/iurie-chigai/",
       "github": "https://github.com/IurieChi",
       "discord": "https://discordapp.com/users/1203821486536659031"
+    }
+  },
+  {
+    "name": "Dinu Marian Cătălin",
+    "avatar": "./assets/contributors/marian-dinu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/dinu-marian-catalin/",
+      "github": "https://github.com/dmariancatalin",
+      "discord": "https://discordapp.com/users/259391751913996298"
     }
   },
   {
@@ -686,6 +1045,23 @@
       "linkedin": "https://www.linkedin.com/in/gheorghe-alexandru-coca-a3516a214/",
       "github": "https://github.com/AlexandruCoca99",
       "discord": "https://discord.com/users/125541351700824064"
+    }
+  },
+  {
+    "name": "Andrei Marin",
+    "avatar": "./assets/contributors/andrei-marin.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/andrei-ionut-marin-20493670/",
+      "github": "https://github.com/Andrei89Marin",
+      "discord": "https://discord.com/users/833281357530660864"
     }
   },
   {
@@ -757,6 +1133,23 @@
     }
   },
   {
+    "name": "Alexandra Meghesan",
+    "avatar": "./assets/contributors/alexandra-meghesan.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/alexandra-meghesan-9a3451148/",
+      "github": "https://github.com/Alexandra9621",
+      "discord": "http://discordapp.com/users/1124296512067866644"
+    }
+  },
+  {
     "name": "Alexandru Fabian",
     "avatar": "./assets/contributors/alexandru-fabian.webp",
     "roles": [
@@ -773,7 +1166,40 @@
       "discord": "http://discordapp.com/users/1037064672534351872"
     }
   },
-  
+  {
+    "name": "Mihaela Adam",
+    "avatar": "./assets/contributors/mihaela-adam.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/mihaela-adam-2b9a0325a/",
+      "github": "https://github.com/mihaelaadam/",
+      "discord": "http://discordapp.com/users/1272851227276873861"
+    }
+  },
+  {
+    "name": "Alin Dumbravă",
+    "avatar": "./assets/contributors/alin-dumbrava.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/dumbrava-alin/",
+      "github": "https://github.com/aLinDC",
+      "discord": "http://discordapp.com/users/203244469582036992"
+    }
+  },
   {
     "name": "Maria Nascu",
     "avatar": "./assets/contributors/maria-nascu.webp",
@@ -823,6 +1249,57 @@
       "linkedin": "https://www.linkedin.com/in/gidoiu-alexandru/",
       "github": "https://github.com/gidoiualexandru",
       "discord": "https://discord.com/users/449879537908449290"
+    }
+  },
+  {
+    "name": "Robert Pop",
+    "avatar": "./assets/contributors/robert-pop.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/poprobert1999/",
+      "github": "https://github.com/poprobert0412",
+      "discord": "https://discordapp.com/users/183635162246938625 "
+    }
+  },
+  {
+    "name": "Lidia Rebeca Barle",
+    "avatar": "./assets/contributors/lidia-rebeca.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/lidia-rebeca-barle-97704b23a",
+      "github": "https://github.com/LidiaBarle",
+      "discord": "https://discordapp.com/users/1397904300293885992 "
+    }
+  },
+  {
+    "name": "Andrei Păun",
+    "avatar": "./assets/contributors/andrei-paun.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "http://www.linkedin.com/in/andrei-p%C4%83un-29ab6a252",
+      "github": "https://github.com/a-paun",
+      "discord": "https://discordapp.com/users/1424142710671020192 "
     }
   },
   {
