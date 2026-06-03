@@ -612,6 +612,12 @@
     "avatar": "./assets/contributors/andrei-barari.webp",
     "roles": [
       {
+        "team": "UI/UX",
+        "position": "UI/UX Designer",
+        "teamLead": false,
+        "status": true
+      },
+      {
         "team": "Front-end",
         "position": "Front-end Lead",
         "teamLead": true,
@@ -1225,7 +1231,7 @@
         "team": "Back-end",
         "position": "Back-end Developer",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -1241,8 +1247,8 @@
       {
         "team": "DevOps",
         "position": "DevOps Lead",
-        "teamLead": true,
-        "status": true
+        "teamLead": false,
+        "status": false
       }
     ],
     "socials": {
