@@ -1347,5 +1347,22 @@
       "github": "https://github.com/carinabancila",
       "discord": "https://discordapp.com/users/1466769241154912320 "
     }
+  },
+  {
+    "name": "Roxana Dejescu",
+    "avatar": "./assets/contributors/roxana-dejescu.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/roxana-dejescu-1505651b2/",
+      "github": "https://github.com/RoxanaD01",
+      "discord": "https://discord.com/users/1509094130234429520"
+    }
   }
 ]
