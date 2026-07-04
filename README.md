@@ -35,7 +35,7 @@ The project will be accessible at http://localhost:3000.
 
 ---
 
-**Installed Packages (Dependencies)**
+**Installed Packages (Dependencies)** 
 
 This project uses the following development dependencies (devDependencies):
 
