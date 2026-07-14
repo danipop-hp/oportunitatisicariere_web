@@ -38,8 +38,14 @@
         "team": "Core",
         "position": "Project Manager",
         "teamLead": false,
+        "status": false
+      },
+      {
+      "team": "HR",
+        "position": "Project Manager",
+        "teamLead": false,
         "status": true
-      }
+        }
     ],
     "socials": {
       "linkedin": "https://www.linkedin.com/in/adriana-cionca-63b14620a/",
@@ -160,7 +166,7 @@
         "team": "Core",
         "position": "Scraping Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -252,7 +258,7 @@
         "team": "Core",
         "position": "DevOps Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "DevOps",
@@ -572,7 +578,7 @@
         "team": "Core",
         "position": "Front-end Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -704,7 +710,7 @@
         "team": "Core",
         "position": "Manual Test Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "Data Quality",
@@ -848,7 +854,7 @@
         "team": "Core",
         "position": "Manual Test Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -1098,7 +1104,7 @@
         "team": "Core",
         "position": "Automation Test Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
