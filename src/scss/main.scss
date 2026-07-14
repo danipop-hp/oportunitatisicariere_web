@@ -1,0 +1,61 @@
+@use './base' as *;
+@use './base/reset';
+@use './components/schdeule';
+@use './layouts/header';
+@use './layouts/footer';
+@use './components/buttons' as *;
+@use './components/forms';
+@use './components/product-card';
+@use './pages/home';
+@use './pages/mission';
+@use './pages/get-involved';
+@use './pages/stories';
+@use './pages/team';
+@use './pages/jobProfile';
+@use './pages/not-found';
+
+main {
+  width: 100%;
+  margin: 0 auto;
+
+  section {
+    max-width: 1440px;
+    width: 100%;
+  }
+}
+
+// Schedule alert animation
+@keyframes pulse-alert {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 194, 136, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(0, 194, 136, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 194, 136, 0);
+  }
+}
+
+// Down arrow icon animations
+@keyframes icon-move {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 16px;
+  }
+}
+
+@keyframes icon-pulse {
+  0%,
+  100% {
+    scale: 0.8;
+    opacity: 0.6;
+  }
+  50% {
+    scale: 1.2;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "aoc",
+  "version": "1.0.0",
+  "description": "AoC 2.0",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Dummy build script required for Autocode Compile\"",
+    "live-server": "npx live-server src",
+    "sass-watch": "sass --watch src/scss:src/dist",
+    "dev": "concurrently \"npm run sass-watch\" \"npm run live-server\"",
+    "compile": "sass src/scss:src/dist --no-source-map --style=compressed",
+    "watch": "sass --watch src/scss:src/dist",
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:js": "eslint src/js",
+    "lint:css": "stylelint src/scss/**/*.scss",
+    "lint:fix": "npm run lint:js:fix && npm run lint:css:fix",
+    "lint:js:fix": "eslint src/js --fix",
+    "lint:css:fix": "stylelint src/scss/**/*.scss --fix",
+    "format": "prettier --write \"src/**/*.{js,scss,html}\"",
+    "format:check": "prettier --check \"src/**/*.{js,scss,html}\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.6.0",
+    "live-server": "^1.2.2",
+    "prettier": "^3.5.1",
+    "sass": "^1.85.0",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard-scss": "^14.0.0"
+  },
+  "dependencies": {
+    "remixicon": "^4.9.1"
+  }
+}

@@ -1,0 +1,358 @@
+@use '../base' as *;
+@use '../components/buttons' as *;
+
+.main-home {
+  .hero {
+    @include flex(column, center, center);
+    gap: 4.8rem;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    background-color: $neutral-100;
+
+    &__container {
+      width: 100%;
+      @include flex(column-reverse, center, center);
+      gap: 4rem;
+      padding: 2.4rem 2.4rem;
+
+      @media (min-width: $breakpoint-md) {
+        @include flex(row, center, center);
+        padding: 4.8rem 2.4rem 13.2rem 2.4rem;
+      }
+    }
+
+    &__content {
+      flex: 1;
+      text-align: left;
+
+      @media (min-width: $breakpoint-lg) {
+        max-width: 600px;
+      }
+
+      a {
+        width: fit-content;
+        @include primary-btn;
+      }
+    }
+
+    &__title {
+      font-size: clamp(2.4rem, 4vw, 4.8rem);
+      line-height: 1.2;
+      margin-bottom: 2rem;
+
+      .brand-first {
+        color: $mint-500;
+      }
+      .brand-second {
+        color: $blue-500;
+      }
+    }
+
+    &__subtitle {
+      max-width: 440px;
+      font-size: 1.8rem;
+      font-weight: $font-weight-semibold;
+      color: $black;
+      margin-bottom: 3.2rem;
+      line-height: 1.6;
+    }
+
+    &__illustration {
+      flex: 1;
+      width: 100%;
+      max-width: 240px;
+
+      @media (min-width: $breakpoint-md) {
+        max-width: 360px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .project-showcase {
+      position: relative;
+      width: clamp(300px, 100%, 1024px);
+      margin: 0 auto;
+      @include wrapping-shadow;
+
+      @media (min-width: $breakpoint-md) {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      &__card {
+        background: $white;
+        padding: 2.4rem;
+        @include flex(column, flex-start, center);
+        overflow: hidden;
+
+        @media (min-width: $breakpoint-md) {
+          @include flex(row, space-between, stretch);
+        }
+      }
+
+      &__content {
+        flex: 1;
+        padding-bottom: 4rem;
+
+        @media (min-width: $breakpoint-md) {
+          padding-right: 4rem;
+          padding-bottom: 6rem;
+        }
+
+        a {
+          @include secondary-btn;
+          width: fit-content;
+        }
+      }
+
+      &__tag {
+        @include flex(column-reverse, center, center);
+        gap: 0.8rem;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin-bottom: 1.6rem;
+        background: $neutral-50;
+        padding: 0.8rem 1.6rem;
+
+        @media (min-width: $breakpoint-sm) {
+          @include flex(row, start, center);
+        }
+
+        .tag-icon {
+          width: 96px;
+          height: 96px;
+        }
+      }
+
+      &__title {
+        display: flex;
+        font-size: 3.2rem;
+        color: $mint-500;
+        margin-bottom: 1.6rem;
+      }
+
+      &__desc {
+        font-size: $font-size-base;
+        font-weight: $font-weight-medium;
+        line-height: 1.6;
+        margin-bottom: 3.2rem;
+      }
+
+      &__image {
+        flex: 1;
+        @include flex(row, center, flex-start);
+        background-image: url('../assets/Homepage/bubble-background.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: clamp(300px, 100%, 596px);
+
+        img {
+          width: 100%;
+          max-width: 240px;
+          height: auto;
+          max-height: 596px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 360px;
+    margin: 0 auto;
+    background: url('../assets/Homepage/volunteer.png') no-repeat center center;
+    background-size: cover;
+    @include flex(column, center, center);
+
+    @media (min-width: $breakpoint-md) {
+      margin-top: 54rem;
+      height: 480px;
+    }
+
+    &__overlay {
+      position: absolute;
+      inset: 0;
+      background: with-alpha($black, 0.6);
+    }
+
+    &__content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      color: $white;
+
+      h2 {
+        font-size: 4.2rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+      }
+
+      .bounce-icon {
+        font-size: 4rem;
+        display: inline-block;
+        animation:
+          icon-move 3s ease-in-out infinite,
+          icon-pulse 1.5s ease-in-out infinite;
+      }
+    }
+  }
+
+  .roles-section {
+    padding: 8rem 2rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+
+    &__header {
+      @include flex(column, center, center);
+      max-width: 700px;
+      margin: 0 auto 5rem;
+
+      h2 {
+        font-size: 3.6rem;
+        color: $blue-900;
+        margin-bottom: 2rem;
+      }
+
+      p {
+        font-size: $font-size-base;
+        line-height: 1.6;
+        color: $black;
+        margin-bottom: 3rem;
+        text-wrap: pretty;
+      }
+    }
+
+    &__filter {
+      display: flex;
+      justify-content: center;
+
+      .search-wrapper {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        background: $white;
+        border: 1px solid $mint-500;
+        border-radius: 3rem;
+        width: 100%;
+        max-width: 350px;
+        transition: all 0.2s ease-in-out;
+
+        &:focus-within {
+          border-color: $mint-600;
+          box-shadow: 0 0 0 2px with-alpha($mint-300, 0.5);
+        }
+
+        .roles-search-input {
+          flex: 1;
+          background: transparent;
+          border: none;
+          padding: 1rem 1.6rem;
+          font-size: $font-size-base;
+          color: $blue-900;
+          outline: none;
+          width: 100%;
+
+          &::placeholder {
+            color: $neutral-800;
+          }
+        }
+
+        .search-icon-btn {
+          width: 4rem;
+          height: 4rem;
+          background: $mint-500;
+          border-radius: 47%;
+          border: none;
+          cursor: pointer;
+          @include flex(row, center, center);
+          color: $white;
+          transition: background-color 0.2s ease-in-out;
+          flex-shrink: 0;
+
+          &:hover {
+            background-color: $mint-600;
+          }
+
+          i {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+
+    .roles-swiper {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 0 6rem;
+
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        transition: transform 0.4s ease;
+
+        .role-card {
+          @include role-card;
+          width: 100%;
+          transition:
+            transform 0.5s ease,
+            box-shadow 0.5s ease;
+        }
+      }
+
+      @media (min-width: $breakpoint-lg) {
+        .swiper-slide-active {
+          .role-card {
+            transform: scale(1.1);
+            z-index: 10;
+          }
+        }
+      }
+    }
+  }
+
+  .features-banner {
+    background-color: $neutral-900;
+    padding: 4rem 2rem;
+
+    &__container {
+      max-width: 1200px;
+      margin: 0 auto;
+      @include flex(column, center, center);
+      gap: 3rem;
+
+      @media (min-width: $breakpoint-md) {
+        @include flex(row, space-around, center);
+        gap: 1rem;
+      }
+
+      .feature-item {
+        @include flex(row, center, center);
+        gap: 1.2rem;
+        color: $white;
+
+        i {
+          font-size: 2.8rem;
+        }
+
+        span {
+          font-size: 1.8rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

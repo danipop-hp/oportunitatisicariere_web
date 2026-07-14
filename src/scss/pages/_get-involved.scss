@@ -1,0 +1,441 @@
+@use '../base' as *;
+@use '../components/buttons' as *;
+
+.main-get-involved {
+  background-color: $mint-50;
+  padding: 4rem 0 0;
+
+  .container {
+    max-width: $breakpoint-xl;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  // Intro
+  .section-header {
+    @include flex(column, center, center);
+    gap: 1.6rem;
+    max-width: 800px;
+    margin: 0 auto 4.8rem;
+    text-align: center;
+
+    h1.title,
+    h2.title {
+      font-size: 3.2rem;
+      font-weight: $font-weight-bold;
+      color: $blue-900;
+      line-height: 1.2;
+      margin: 0 auto;
+
+      @media (min-width: $breakpoint-md) {
+        font-size: 4rem;
+      }
+    }
+
+    p {
+      font-size: $font-size-base;
+      line-height: 1.6;
+      text-wrap: balance;
+
+      @media (min-width: $breakpoint-md) {
+        font-size: $font-size-lg;
+      }
+    }
+  }
+
+  .help-intro-section {
+    @include flex(column);
+
+    .roles-overview-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.4rem;
+      max-width: 1024px;
+      margin: 0 auto;
+
+      @media (min-width: $breakpoint-sm) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media (min-width: $breakpoint-lg) {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3.2rem;
+      }
+
+      .value-card {
+        background-color: $white;
+        padding: 4rem 3.2rem;
+        border-radius: 2.4rem;
+        min-width: 280px;
+        border: 1px solid $neutral-100;
+        @include flex(column, center, center);
+        text-align: center;
+        gap: 1.6rem;
+        @include soft-shadow;
+        @include hover-lift('.value-icon', 'h3');
+
+        .value-icon {
+          @include flex(row, center, center);
+          width: 72px;
+          height: 72px;
+          border-radius: 50%;
+          background-color: $mint-50;
+          color: $mint-500;
+          margin-bottom: 0.8rem;
+          transition: all 0.3s ease;
+
+          i {
+            font-size: 3.2rem;
+            transition: color 0.3s ease;
+          }
+        }
+
+        h3 {
+          font-size: $font-size-xl;
+          font-weight: $font-weight-bold;
+          color: $blue-900;
+          line-height: 1.3;
+          transition: color 0.3s ease;
+        }
+      }
+    }
+  }
+
+  // Banner
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 360px;
+    margin: 6rem auto 0;
+    background: url('../assets/Homepage/volunteer.png') no-repeat center center;
+    background-size: cover;
+    @include flex(column, center, center);
+
+    @media (min-width: $breakpoint-md) {
+      margin-top: 10rem;
+      height: 480px;
+    }
+
+    &__overlay {
+      position: absolute;
+      inset: 0;
+      background: with-alpha($black, 0.6);
+    }
+
+    &__content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      color: $white;
+
+      h2 {
+        font-size: 4.2rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+      }
+
+      .bounce-icon {
+        font-size: 4rem;
+        display: inline-block;
+        animation:
+          icon-move 3s ease-in-out infinite,
+          icon-pulse 1.5s ease-in-out infinite;
+      }
+    }
+  }
+
+  // Carousel
+  .roles-section {
+    padding: 4.8rem 2.4rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+
+    &__header {
+      @include flex(column, center, center);
+      max-width: 700px;
+      margin: 0 auto 5rem;
+
+      h2 {
+        font-size: 3.6rem;
+        color: $blue-900;
+        margin-bottom: 2rem;
+      }
+
+      p {
+        font-size: $font-size-base;
+        line-height: 1.6;
+        color: $black;
+        margin-bottom: 3rem;
+        text-wrap: pretty;
+      }
+    }
+
+    &__filter {
+      display: flex;
+      justify-content: center;
+
+      .search-wrapper {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        background: $white;
+        border: 1px solid $mint-500;
+        border-radius: 3rem;
+        width: 100%;
+        max-width: 350px;
+        transition: all 0.2s ease-in-out;
+
+        &:focus-within {
+          border-color: $mint-600;
+          box-shadow: 0 0 0 2px with-alpha($mint-300, 0.5);
+        }
+
+        .roles-search-input {
+          flex: 1;
+          background: transparent;
+          border: none;
+          padding: 1rem 1.6rem;
+          font-size: $font-size-base;
+          color: $blue-900;
+          outline: none;
+          width: 100%;
+
+          &::placeholder {
+            color: $neutral-800;
+          }
+        }
+
+        .search-icon-btn {
+          width: 4rem;
+          height: 4rem;
+          background: $mint-500;
+          border-radius: 47%;
+          border: none;
+          cursor: pointer;
+          @include flex(row, center, center);
+          color: $white;
+          transition: background-color 0.2s ease-in-out;
+          flex-shrink: 0;
+
+          &:hover {
+            background-color: $mint-600;
+          }
+
+          i {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+
+    .roles-swiper {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 0 6rem;
+
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        transition: transform 0.4s ease;
+
+        .role-card {
+          @include role-card;
+          width: 100%;
+          transition:
+            transform 0.5s ease,
+            box-shadow 0.5s ease;
+        }
+      }
+
+      @media (min-width: $breakpoint-lg) {
+        .swiper-slide-active {
+          .role-card {
+            transform: scale(1.1);
+            z-index: 10;
+          }
+        }
+      }
+    }
+  }
+
+  // Support
+  .support-section {
+    margin-top: 6rem;
+    padding-bottom: 6rem;
+
+    @media (min-width: $breakpoint-md) {
+      margin-top: 10rem;
+      padding-bottom: 10rem;
+    }
+
+    .support-card {
+      background-color: $white;
+      border-radius: 3.2rem;
+      padding: 4rem 2.4rem;
+      @include flex(column);
+      gap: 4.8rem;
+      @include wrapping-shadow;
+      max-width: 1024px;
+      margin: 0 auto;
+
+      @media (min-width: $breakpoint-md) {
+        padding: 6rem;
+      }
+
+      &__header {
+        @include flex(column, center, center);
+        gap: 1.6rem;
+        text-align: center;
+        margin: 0 auto;
+        border-bottom: 2px solid $neutral-400;
+        padding-bottom: 4.8rem;
+
+        h2 {
+          font-size: 3.2rem;
+          font-weight: $font-weight-bold;
+        }
+
+        p {
+          font-size: $font-size-base;
+          color: $neutral-700;
+          line-height: 1.6;
+        }
+      }
+
+      .support-details {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3.2rem;
+        border-bottom: 2px solid $neutral-400;
+        padding-bottom: 4.8rem;
+
+        @media (min-width: $breakpoint-md) {
+          grid-template-columns: 1fr 1fr;
+          gap: 4.8rem;
+        }
+
+        &__col {
+          @include flex(column);
+          gap: 2.4rem;
+        }
+
+        .detail-item {
+          @include flex(row, flex-start, flex-start);
+          gap: 1.6rem;
+
+          i {
+            font-size: 2.4rem;
+            color: $mint-500;
+            margin-top: 0.2rem;
+          }
+
+          .detail-content {
+            @include flex(column);
+            gap: 0.4rem;
+
+            .detail-label {
+              font-size: $font-size-base;
+              font-weight: $font-weight-bold;
+              color: $blue-900;
+            }
+
+            .detail-value {
+              font-size: $font-size-sm;
+              color: $neutral-700;
+              line-height: 1.5;
+            }
+
+            .detail-link {
+              font-size: $font-size-sm;
+              color: $mint-500;
+              text-decoration: underline;
+              font-weight: $font-weight-medium;
+
+              &:hover {
+                color: $mint-700;
+              }
+            }
+          }
+        }
+      }
+
+      .redirect-tax {
+        text-align: center;
+        margin: 0 auto;
+        border-bottom: 2px solid $neutral-400;
+        padding-bottom: 4.8rem;
+
+        .subtitle {
+          font-size: 2.4rem;
+          font-weight: $font-weight-bold;
+          color: $blue-900;
+          margin-bottom: 1.6rem;
+        }
+
+        p {
+          font-size: $font-size-sm;
+          color: $neutral-700;
+          line-height: 1.6;
+          margin-bottom: 2.4rem;
+        }
+
+        a {
+          @include primary-btn;
+          width: fit-content;
+          margin: 0 auto;
+        }
+      }
+
+      // Box Impact
+      .impact-box {
+        background-color: $mint-50;
+        border-radius: 1.6rem;
+        padding: 2.4rem;
+
+        @media (min-width: $breakpoint-md) {
+          padding: 3.2rem;
+        }
+
+        &__title {
+          font-size: $font-size-lg;
+          font-weight: $font-weight-bold;
+          color: $blue-900;
+          margin-bottom: 1.6rem;
+        }
+
+        .impact-list {
+          @include flex(column);
+          gap: 1.2rem;
+
+          li {
+            @include flex(row, flex-start, flex-start);
+            gap: 1.2rem;
+
+            .bullet {
+              width: 8px;
+              height: 8px;
+              background-color: $mint-500;
+              border-radius: 50%;
+              margin-top: 0.6rem;
+              flex-shrink: 0;
+            }
+
+            p {
+              font-size: $font-size-sm;
+              color: $neutral-800;
+              line-height: 1.5;
+
+              strong {
+                color: $blue-900;
+                font-weight: $font-weight-bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

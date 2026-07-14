@@ -1,0 +1,59 @@
+@use 'mixins' as *;
+@use 'variables' as *;
+
+@import 'https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  @include flex(column, space-between, center);
+
+  min-height: 100dvh;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  background-color: $mint-50;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: $font-size-base;
+  text-wrap: pretty;
+}
+
+.font-gelasio {
+  font-family: 'Gelasio', serif;
+}
+
+.highlight-mint {
+  color: $mint-500;
+}
+
+.highlight-blue {
+  color: $blue-500;
+}
+
+.title {
+  width: fit-content;
+  border-bottom: 2px solid $mint-500;
+  padding-bottom: 0.6rem;
+}

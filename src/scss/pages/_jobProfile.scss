@@ -1,0 +1,270 @@
+@use '../base' as *;
+@use '../components/buttons' as *;
+
+.main-jobProfile {
+  max-width: 1024px;
+  background: $white;
+  margin: 3.6rem 1.2rem;
+  padding: 2.4rem;
+
+  border-radius: 2.5rem;
+}
+
+.back-nav {
+  margin-bottom: 2.4rem;
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: $neutral-800;
+    text-decoration: none;
+    font-size: $font-size-sm;
+    font-weight: $font-weight-medium;
+    &:hover {
+      color: $mint-500;
+    }
+    i {
+      font-size: 2rem;
+    }
+  }
+}
+
+.job-card {
+  &__header {
+    border: 1px solid $neutral-200;
+    border-radius: 1.6rem;
+    padding: 2.4rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    @media (min-width: $breakpoint-md) {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 4rem;
+    }
+  }
+
+  &__info {
+    flex: 1;
+    @include flex(column, flex-start, flex-start);
+    gap: 1.2rem;
+  }
+
+  &__title {
+    font-size: 3.2rem;
+    color: $mint-500;
+    font-weight: $font-weight-bold;
+    margin-bottom: 1.2rem;
+    line-height: 1.2;
+    @media (min-width: $breakpoint-md) {
+      font-size: 4.4rem;
+    }
+  }
+
+  &__meta {
+    @include flex(column, flex-start, flex-start);
+    gap: 1.2rem;
+    font-size: $font-size-xl;
+    color: $neutral-900;
+    margin-bottom: 2.4rem;
+    p {
+      margin-bottom: 0.4rem;
+    }
+    #department-name {
+      color: $black;
+      font-weight: $font-weight-bold;
+    }
+  }
+
+  &__tags {
+    @include flex(column, flex-start, flex-start);
+    flex-wrap: wrap;
+    gap: 1.2rem 2.4rem;
+    margin-bottom: 3.2rem;
+
+    .tag {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      color: $neutral-900;
+      font-size: $font-size-base;
+      font-weight: $font-weight-medium;
+
+      i {
+        color: $mint-500;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  &__badge {
+    align-self: center;
+    @include flex(column, space-between, center);
+    height: 100%;
+    gap: 2.4rem;
+    @media (min-width: $breakpoint-md) {
+      align-self: flex-start;
+      height: auto;
+    }
+    .badge-img {
+      width: 120px;
+      justify-content: center;
+      @media (min-width: $breakpoint-md) {
+        width: 160px;
+      }
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+
+    .team-btn {
+      @include secondary-btn;
+    }
+    .join-btn {
+      @include primary-btn;
+      border: none;
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+
+  &__body {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  &__footer-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-top: 2rem;
+    padding-top: 4rem;
+    border-top: 1px solid $neutral-100;
+  }
+}
+
+.details-section {
+  .section-title {
+    font-size: $h2-font-size;
+    font-weight: $font-weight-bold;
+    color: $black;
+    margin-bottom: 1.6rem;
+
+    &.has-border {
+      display: inline-block;
+      border-bottom: 2px solid $black;
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.6rem;
+    }
+  }
+
+  .section-text {
+    font-size: $font-size-lg;
+    line-height: 1.6;
+    color: $neutral-900;
+  }
+
+  .section-list {
+    padding-left: 2rem;
+    list-style-type: disc;
+    li {
+      font-size: $font-size-lg;
+      color: $neutral-900;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+  }
+}
+
+// Card Recruiter
+.recruiter-card {
+  border: 1px solid $neutral-200;
+  border-radius: 1.6rem;
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  @media (min-width: $breakpoint-md) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  &__profile {
+    @include flex(column, null, center);
+    gap: 1.6rem;
+
+    img {
+      width: 140px;
+      height: 200px;
+      border-radius: 3.6rem;
+      object-fit: cover;
+      background: $neutral-100;
+    }
+  }
+
+  &__socials {
+    display: flex;
+    gap: 1rem;
+    a {
+      @include icon-animation;
+    }
+  }
+
+  &__info {
+    flex: 1;
+    @include flex(column, flex-start, flex-start);
+    gap: 0.8rem;
+  }
+
+  &__label {
+    font-size: $font-size-base;
+    font-weight: $font-weight-bold;
+    text-decoration: underline;
+  }
+
+  &__name {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-bold;
+  }
+
+  &__role {
+    color: $neutral-900;
+  }
+
+  &__contacts {
+    @include flex(column, flex-start, flex-start);
+    gap: 0.8rem;
+    font-size: $font-size-base;
+    color: $neutral-900;
+
+    li {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+  }
+}
+
+.team-btn {
+  @include secondary-btn;
+}
+.join-btn {
+  @include primary-btn;
+  border: none;
+}

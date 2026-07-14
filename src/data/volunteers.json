@@ -1,0 +1,1492 @@
+[
+  {
+    "name": "Sebastian Boga",
+    "avatar": "./assets/contributors/sebastian-boga.webp",
+    "roles": [
+      {
+        "team": "Core",
+        "position": "Product Owner",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Back-end",
+        "position": "Back-end Developer",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "QA",
+        "position": "QA Manager",
+        "teamLead": true,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/sebastianboga/",
+      "github": "https://github.com/sebiboga",
+      "discord": "https://discord.com/users/784091439993847870"
+    },
+    "joinedAt": "2021-08-01",
+    "joinedAtMethod": "org-creation-founder"
+  },
+  {
+    "name": "Adriana Cionca",
+    "avatar": "./assets/contributors/adriana-cionca.webp",
+    "roles": [
+      {
+        "team": "HR",
+        "position": "Project Manager",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/adriana-cionca-63b14620a/",
+      "github": "https://github.com/AdrianaCionca",
+      "discord": "https://discord.com/users/1064933385878904954"
+    },
+    "joinedAt": "2023-08-22",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Talida Ganciu",
+    "avatar": "./assets/contributors/talida-ganciu.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "UI/UX",
+        "position": "UI/UX Designer",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/mihaela-talida-g-66532716a/",
+      "github": "https://github.com/talidag",
+      "discord": "https://discord.com/users/1123986908914139147"
+    },
+    "joinedAt": "2024-03-25",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Patricia Istrate",
+    "avatar": "./assets/contributors/patricia-istrate.webp",
+    "roles": [
+      {
+        "team": "Core",
+        "position": "UI/UX Expert",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "UI/UX",
+        "position": "UI/UX Lead",
+        "teamLead": true,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/patriciaistrate/",
+      "github": "https://sites.google.com/view/patriciaistrateportfolio/home",
+      "discord": "https://discord.com/users/1167459382653632643"
+    }
+  },
+  {
+    "name": "Laurențiu Băluță",
+    "avatar": "./assets/contributors/laurentiu-baluta.webp",
+    "roles": [
+      {
+        "team": "Core",
+        "position": "CTO",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Back-end",
+        "position": "Back-end Developer",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Scraping",
+        "position": "Scraper",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Cybersecurity",
+        "position": "CTO",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/laurentiu-baluta-3153b9217/",
+      "github": "https://github.com/lalalaurentiu",
+      "discord": "https://discord.com/users/443431920320249856"
+    },
+    "joinedAt": "2023-05-29",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Andrei Cojocaru",
+    "avatar": "./assets/contributors/andrei-cojocaru.webp",
+    "roles": [
+      {
+        "team": "Scraping",
+        "position": "Scraping Lead",
+        "teamLead": true,
+        "status": true
+      },
+      {
+        "position": "Scraping Lead",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/andrei-cojocaru-985932204/",
+      "github": "https://github.com/andreireporter13",
+      "discord": "https://discord.com/users/728326602618044438"
+    }
+  },
+  {
+    "name": "Adelina Guliman",
+    "avatar": "./assets/contributors/adelina-guliman.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/adelina-guliman-111631286/",
+      "github": "https://github.com/AdelinaGuliman",
+      "discord": "https://discord.com/users/1167074527067512834"
+    },
+    "joinedAt": "2023-11-07",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Rareș Irimus",
+    "avatar": "./assets/contributors/rares-irimus.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Automation Test Lead",
+        "teamLead": true,
+        "status": false
+      },
+      {
+        "team": "Scraping",
+        "position": "Python Scraper",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Core",
+        "position": "Automation Test Lead",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/raresirimus/",
+      "github": "https://github.com/RaresCode",
+      "discord": "https://discord.com/users/939250630239846490"
+    },
+    "joinedAt": "2023-12-09",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Alexandra Ifrim",
+    "avatar": "./assets/contributors/alexandra-ifrim-second-photo.webp",
+    "roles": [
+      {
+        "team": "Back-end",
+        "position": "Back-end Lead",
+        "teamLead": true,
+        "status": true
+      },
+      {
+        "team": "Core",
+        "position": "Back-end Lead",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/alexandra-ifrim-9958092b0/",
+      "github": "https://github.com/ale23yfm",
+      "discord": "https://discord.com/users/882675128515838012"
+    },
+    "joinedAt": "2024-03-29",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Alex Ștefan",
+    "avatar": "./assets/contributors/alex-stefan.webp",
+    "roles": [
+      {
+        "position": "DevOps Lead",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "DevOps",
+        "position": "DevOps Lead",
+        "teamLead": true,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/alex-stefan99/",
+      "github": "https://github.com/AlexStefan17",
+      "discord": "https://discord.com/users/348500220633546753"
+    },
+    "joinedAt": "2024-06-24",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Lavinia Avram",
+    "avatar": "./assets/contributors/avram-lavinia.webp",
+    "roles": [
+      {
+        "team": "Core",
+        "position": "Pentester",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Cybersecurity",
+        "position": "Pentester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/lavinia-avram-783a10231/",
+      "github": "https://github.com/AvramLavinia/",
+      "discord": "https://discord.com/users/373100831731613696"
+    },
+    "joinedAt": "2023-12-11",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Florin Nistor",
+    "avatar": "./assets/contributors/florin-nistor.webp",
+    "roles": [
+      {
+        "team": "Core",
+        "position": "Data Quality Test Lead",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Test Lead",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/florin-nistor-b9a766252/",
+      "github": "https://github.com/Florin201092",
+      "discord": "https://discord.com/users/1219216349184790601"
+    },
+    "joinedAt": "2024-03-28",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Diana Drăgoi",
+    "avatar": "./assets/contributors/diana-dragoi.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Test Lead",
+        "teamLead": true,
+        "status": true
+      },
+      {
+        "team": "Core",
+        "position": "Project Manager",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://ro.linkedin.com/in/diana-lavinia-dragoi",
+      "github": "https://github.com/DeedeeDL",
+      "discord": "https://discord.com/users/930881772374360084"
+    },
+    "joinedAt": "2023-12-06",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Beatrix Răcășanu",
+    "avatar": "./assets/contributors/beatrix-racasanu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Cybersecurity",
+        "position": "Data Protection Officer",
+        "teamLead": true,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/beatrix-racasanu-14507411b/",
+      "github": "https://github.com/iBixee",
+      "discord": "https://discord.com/users/377879793934532619"
+    },
+    "joinedAt": "2023-11-22",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Elena Istratescu",
+    "avatar": "./assets/contributors/elena-istratescu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/elena-ramona-istratescu-680564299/",
+      "github": "https://github.com/Elena1303996",
+      "discord": "https://discord.com/users/1197172023709925418"
+    },
+    "joinedAt": "2024-02-08",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Cătălina Ion",
+    "avatar": "./assets/contributors/catalina-ion.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/catalina-ion-3b62a61a9/",
+      "github": "https://github.com/Catalinay",
+      "discord": "https://discord.com/users/1036049771955245096"
+    },
+    "joinedAt": "2024-04-21",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Ionuț Pintilie",
+    "avatar": "./assets/contributors/ionut-pintilie.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/ionut-pintilie-qa-engineer/",
+      "github": "https://github.com/yonutzu",
+      "discord": "https://discord.com/users/1046720699324190750"
+    },
+    "joinedAt": "2024-05-20",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Bogdan Dumitrache",
+    "avatar": "./assets/contributors/bogdan-dumitrache.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/dumitrache-bogdan-aa03b31a4/",
+      "github": "https://github.com/bogi1492",
+      "discord": "https://discord.com/users/1217732447618207835"
+    },
+    "joinedAt": "2024-03-28",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Camelia Melinte",
+    "avatar": "./assets/contributors/camelia-melinte.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/cameliaamelinte/",
+      "github": "https://github.com/CameliaAM",
+      "discord": "https://discord.com/users/495991348386594818"
+    },
+    "joinedAt": "2024-06-12",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Cristian Zidărescu",
+    "avatar": "./assets/contributors/cristian-zidarescu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/cristian-emil-zidarescu-a463814b/",
+      "github": "https://github.com/Cristian-Emil",
+      "discord": "https://discord.com/users/1007300859480260628"
+    },
+    "joinedAt": "2024-07-15",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Răzvan Gradea",
+    "avatar": "./assets/contributors/razvan-gradea.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/gradea-razvan-b33493269/",
+      "github": "https://github.com/Razvan002?tab=repositories",
+      "discord": "https://discord.com/users/273543768651595787"
+    },
+    "joinedAt": "2023-04-12",
+    "joinedAtMethod": "account-creation"
+  },
+  {
+    "name": "Georgiana Redenstein",
+    "avatar": "./assets/contributors/georgiana-redenstein.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/georgiana-redenstein/",
+      "github": "https://github.com/Georgianaredenstein",
+      "discord": "https://discord.com/users/1027873494110842892"
+    },
+    "joinedAt": "2024-07-07",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Andreea Dima",
+    "avatar": "./assets/contributors/andreea-dima.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/andreea-valentina-dima/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "https://github.com/Luvnrj",
+      "discord": "https://discord.com/users/1245250057263906928"
+    },
+    "joinedAt": "2024-07-31",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Adelina Moroacă",
+    "avatar": "./assets/contributors/adelina-moroaca.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": true,
+        "status": true
+      },
+      {
+        "position": "Front-end Lead",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/adelina-moroaca/",
+      "github": "https://github.com/AdelinaMoroaca",
+      "discord": "https://discordapp.com/users/940937990551785543"
+    },
+    "joinedAt": "2024-05-01",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Marian Ciobanu",
+    "avatar": "./assets/contributors/marian-ciobanu.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/ciobanu-marian-296268252/",
+      "github": "https://github.com/CbnMarian",
+      "discord": "https://discordapp.com/users/208673995858378752"
+    },
+    "joinedAt": "2024-09-26",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Grigore Herța",
+    "avatar": "./assets/contributors/grigore-herta.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/grigore-herta-b50118234/",
+      "github": "https://github.com/Grigore13",
+      "discord": "https://discordapp.com/users/956838123806023720"
+    },
+    "joinedAt": "2024-10-30",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Niculina Romanta",
+    "avatar": "./assets/contributors/niculina-romanta.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/niculina-romanta-390608230/",
+      "github": "https://github.com/Niki2222",
+      "discord": "https://discordapp.com/users/879738133611175936"
+    },
+    "joinedAt": "2024-09-11",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Adrian Doinea",
+    "avatar": "./assets/contributors/adrian-doinea.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/adrian-doinea/",
+      "github": "https://github.com/adriandoinea",
+      "discord": "https://discordapp.com/users/1077190332275507290"
+    },
+    "joinedAt": "2024-07-31",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Andrei Barari",
+    "avatar": "./assets/contributors/andrei-barari.webp",
+    "roles": [
+      {
+        "team": "UI/UX",
+        "position": "UI/UX Designer",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Front-end",
+        "position": "Front-end Lead",
+        "teamLead": true,
+        "status": true
+      },
+      {
+        "team": "Core",
+        "position": "Front-end Lead",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/andrei-barari-29946489/",
+      "github": "https://github.com/AndreiBarari",
+      "discord": "https://discordapp.com/users/180978616065064960"
+    },
+    "joinedAt": "2024-05-31",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Ana-Maria Tălmăcel",
+    "avatar": "./assets/contributors/anamaria-talmacel.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Test Lead",
+        "teamLead": true,
+        "status": true
+      },
+      {
+        "position": "Manual Test Lead",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/ana-maria-talmacel-a96722274/",
+      "github": "https://github.com/talmacelanamaria",
+      "discord": "https://discordapp.com/users/1257214914813100065"
+    },
+    "joinedAt": "2024-07-02",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Mădălina Andon",
+    "avatar": "./assets/contributors/madalina-andon.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/madalina-andon/",
+      "github": "https://github.com/MadalinaCodes",
+      "discord": "https://discordapp.com/users/694204138099179640"
+    },
+    "joinedAt": "2024-10-19",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Cristina Apostol",
+    "avatar": "./assets/contributors/cristina-apostol.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/cristina-apostol-7a3286a3/",
+      "github": "https://github.com/CrisA24",
+      "discord": "https://discordapp.com/users/1249757700842324048"
+    },
+    "joinedAt": "2024-10-07",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Lucian Lodin",
+    "avatar": "./assets/contributors/lucian-lodin.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/lodin-lucian-30527a294",
+      "github": "https://github.com/LucianLCI",
+      "discord": "https://discordapp.com/users/1008413517621248090"
+    },
+    "joinedAt": "2024-07-03",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Caterina Bocaniciu",
+    "avatar": "./assets/contributors/caterina-bocaniciu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/caterina-bocaniciu-121033305",
+      "github": "https://github.com/catiboc",
+      "discord": "https://discordapp.com/users/1159540890331791452"
+    },
+    "joinedAt": "2024-07-15",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Loredana Pelle",
+    "avatar": "./assets/contributors/loredana-pelle.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/loredana-pelle?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "https://github.com/Lore78",
+      "discord": "https://discordapp.com/users/1222629327116435517"
+    },
+    "joinedAt": "2024-07-16",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Carmen Steliana Ut",
+    "avatar": "./assets/contributors/carmen-steliana.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Test Lead",
+        "teamLead": true,
+        "status": true
+      },
+      {
+        "position": "Manual Test Lead",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/carmen-ut/",
+      "github": "https://github.com/CarmenSteliana",
+      "discord": "https://discordapp.com/users/1256989150847041618"
+    },
+    "joinedAt": "2024-07-08",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Georgiana Radu",
+    "avatar": "./assets/contributors/georgiana-radu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "http://linkedin.com/in/georgiana-radu-58266b318",
+      "github": "#",
+      "discord": "https://discordapp.com/users/1215009048219623424"
+    }
+  },
+  {
+    "name": "Radu Lutu",
+    "avatar": "./assets/contributors/radu-lutu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/radu-l-b37409252/",
+      "github": "https://github.com/RaduLutu",
+      "discord": "https://discordapp.com/users/1281279200950747211"
+    },
+    "joinedAt": "2024-11-12",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Andreea Plugaru",
+    "avatar": "./assets/contributors/person-placeholder.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Cybersecurity",
+        "position": "Junior Security Analyst",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/andreea-plugaru-1a496ba8",
+      "github": "https://github.com/aplugaru",
+      "discord": "https://discordapp.com/users/1145392030873288784"
+    },
+    "joinedAt": "2024-05-30",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Roxana Danalache",
+    "avatar": "./assets/contributors/roxana-danalache.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "http://www.linkedin.com/in/roxana-danalache",
+      "github": "https://github.com/RoxanaDanalache",
+      "discord": "https://discordapp.com/users/1263147842193850472"
+    },
+    "joinedAt": "2024-08-29",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Alina Floroiu",
+    "avatar": "./assets/contributors/alina-floroiu.webp",
+    "roles": [
+      {
+        "team": "Back-end",
+        "position": "Junior PHP Developer",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/alina-floroiu-6238a5295/",
+      "github": "https://github.com/alina712",
+      "discord": "https://discordapp.com/users/309072560472195076"
+    },
+    "joinedAt": "2024-10-06",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Cristi Olteanu",
+    "avatar": "./assets/contributors/cristi-olteanu.webp",
+    "roles": [
+      {
+        "team": "Scraping",
+        "position": "Python Scraper",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/cristi-olteanu-03937718b/",
+      "github": "https://github.com/cristiol",
+      "discord": "https://discordapp.com/users/1148983001800253511"
+    },
+    "joinedAt": "2023-09-13",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Anca Matei",
+    "avatar": "./assets/contributors/anca-matei.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/anca-m-matei/",
+      "github": "https://github.com/Anca2022",
+      "discord": "https://discordapp.com/users/1192550014610849903"
+    },
+    "joinedAt": "2024-11-07",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Daniela Popa",
+    "avatar": "./assets/contributors/daniela-popa.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/daniela-popa/",
+      "github": "https://github.com/Popa-Daniela",
+      "discord": "https://discordapp.com/users/1247218477123502132"
+    },
+    "joinedAt": "2024-06-18",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Livia Hriscu",
+    "avatar": "./assets/contributors/livia-hriscu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "Data Quality",
+        "position": "Data Quality Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/livia-hriscu-7410ab10/",
+      "github": "https://github.com/liviahriscu",
+      "discord": "https://discordapp.com/users/1173597104426467330"
+    },
+    "joinedAt": "2024-11-21",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Iurie Chigai",
+    "avatar": "./assets/contributors/iurie-chigai.webp",
+    "roles": [
+      {
+        "team": "Scraping",
+        "position": "Python Scraper",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/iurie-chigai/",
+      "github": "https://github.com/IurieChi",
+      "discord": "https://discordapp.com/users/1203821486536659031"
+    },
+    "joinedAt": "2024-02-23",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Dinu Marian Cătălin",
+    "avatar": "./assets/contributors/marian-dinu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/dinu-marian-catalin/",
+      "github": "https://github.com/dmariancatalin",
+      "discord": "https://discordapp.com/users/259391751913996298"
+    },
+    "joinedAt": "2024-09-10",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Ivaşcu Theodor",
+    "avatar": "./assets/contributors/theodor-ivascu.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Automation Test Lead",
+        "teamLead": true,
+        "status": true
+      },
+      {
+        "position": "Automation Test Lead",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/theodorivascu/",
+      "github": "https://github.com/TheodorIvascu",
+      "discord": "http://discordapp.com/users/1188200252369547325"
+    },
+    "joinedAt": "2024-12-20",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Radu Spatacean",
+    "avatar": "./assets/contributors/radu-spatacean.webp",
+    "roles": [
+      {
+        "team": "Core",
+        "position": "Scrum Master",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/radu-spatacean-a8b070226/",
+      "github": "https://github.com/raduviorel-collab",
+      "discord": "https://discordapp.com/users/1260157158671126580"
+    },
+    "joinedAt": "2024-08-01",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Alexandru Coca",
+    "avatar": "./assets/contributors/alexandru-coca.webp",
+    "roles": [
+      {
+        "team": "Back-end",
+        "position": "Junior PHP Developer",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/gheorghe-alexandru-coca-a3516a214/",
+      "github": "https://github.com/AlexandruCoca99",
+      "discord": "https://discord.com/users/125541351700824064"
+    },
+    "joinedAt": "2024-11-17",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Andrei Marin",
+    "avatar": "./assets/contributors/andrei-marin.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/andrei-ionut-marin-20493670/",
+      "github": "https://github.com/Andrei89Marin",
+      "discord": "https://discord.com/users/833281357530660864"
+    },
+    "joinedAt": "2023-01-03",
+    "joinedAtMethod": "account-creation"
+  },
+  {
+    "name": "Robert Burcea",
+    "avatar": "./assets/contributors/robert-burcea.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/robert-burcea-0a1a4933/",
+      "github": "https://github.com/robert-burcea",
+      "discord": "https://discord.com/users/688769576690909311"
+    },
+    "joinedAt": "2023-11-23",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Robert Popescu",
+    "avatar": "./assets/contributors/robert-popescu.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/porobertdev",
+      "github": "https://github.com/porobertdev",
+      "discord": "https://discord.com/users/400402196346306560"
+    },
+    "joinedAt": "2024-12-13",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Mirela-Estera Stoica",
+    "avatar": "./assets/contributors/mirela-stoica.webp",
+    "roles": [
+      {
+        "team": "DevOps",
+        "position": "DevOps",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/mirela-estera-stoica-b36492182/",
+      "github": "https://github.com/stoicamirela",
+      "discord": "https://discord.com/users/730821185075675216"
+    },
+    "joinedAt": "2019-09-02",
+    "joinedAtMethod": "account-creation"
+  },
+  {
+    "name": "Brăviceanu-Badea Clarisse",
+    "avatar": "./assets/contributors/braviceanu-badea-clarisse.webp",
+    "roles": [
+      {
+        "team": "Cybersecurity",
+        "position": "Junior Security Analyst",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/clarisse-braviceanu-badea-66a286339/",
+      "github": "https://github.com/cclaryc",
+      "discord": "http://discordapp.com/users/423167095581179904"
+    },
+    "joinedAt": "2023-10-25",
+    "joinedAtMethod": "account-creation"
+  },
+  {
+    "name": "Alexandra Meghesan",
+    "avatar": "./assets/contributors/alexandra-meghesan.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/alexandra-meghesan-9a3451148/",
+      "github": "https://github.com/Alexandra9621",
+      "discord": "http://discordapp.com/users/1124296512067866644"
+    },
+    "joinedAt": "2024-11-24",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Alexandru Fabian",
+    "avatar": "./assets/contributors/alexandru-fabian.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "#",
+      "github": "https://github.com/AlexandruFBN",
+      "discord": "http://discordapp.com/users/1037064672534351872"
+    },
+    "joinedAt": "2024-10-07",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Mihaela Adam",
+    "avatar": "./assets/contributors/mihaela-adam.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/mihaela-adam-2b9a0325a/",
+      "github": "https://github.com/mihaelaadam/",
+      "discord": "http://discordapp.com/users/1272851227276873861"
+    },
+    "joinedAt": "2024-10-27",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Alin Dumbravă",
+    "avatar": "./assets/contributors/alin-dumbrava.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/dumbrava-alin/",
+      "github": "https://github.com/aLinDC",
+      "discord": "http://discordapp.com/users/203244469582036992"
+    },
+    "joinedAt": "2025-02-17",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Maria Nascu",
+    "avatar": "./assets/contributors/maria-nascu.webp",
+    "roles": [
+      {
+        "team": "Scraping",
+        "position": "AI Scraper",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/maria-nascu/",
+      "github": "https://github.com/MariaNascu",
+      "discord": "https://discord.com/users/697469695057461351"
+    },
+    "joinedAt": "2025-06-05",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Boris-Andrei Pavel",
+    "avatar": "./assets/contributors/boris-andrei-pavel.webp",
+    "roles": [
+      {
+        "team": "Back-end",
+        "position": "Back-end Developer",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/boris-pavel/",
+      "github": "https://github.com/boris-pavel",
+      "discord": "https://discord.com/users/1240813832012697762"
+    },
+    "joinedAt": "2025-10-08",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Gidoiu Alexandru",
+    "avatar": "./assets/contributors/gidoiu-alexandru.webp",
+    "roles": [
+      {
+        "team": "DevOps",
+        "position": "DevOps Lead",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/gidoiu-alexandru/",
+      "github": "https://github.com/gidoiualexandru",
+      "discord": "https://discord.com/users/449879537908449290"
+    },
+    "joinedAt": "2025-09-04",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Robert Pop",
+    "avatar": "./assets/contributors/robert-pop.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/poprobert1999/",
+      "github": "https://github.com/poprobert0412",
+      "discord": "https://discordapp.com/users/183635162246938625 "
+    },
+    "joinedAt": "2025-08-20",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Lidia Rebeca Barle",
+    "avatar": "./assets/contributors/lidia-rebeca.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/lidia-rebeca-barle-97704b23a",
+      "github": "https://github.com/LidiaBarle",
+      "discord": "https://discordapp.com/users/1397904300293885992 "
+    },
+    "joinedAt": "2025-10-21",
+    "joinedAtMethod": "account-creation"
+  },
+  {
+    "name": "Andrei Păun",
+    "avatar": "./assets/contributors/andrei-paun.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": false
+      }
+    ],
+    "socials": {
+      "linkedin": "http://www.linkedin.com/in/andrei-p%C4%83un-29ab6a252",
+      "github": "https://github.com/a-paun",
+      "discord": "https://discordapp.com/users/1424142710671020192 "
+    },
+    "joinedAt": "2025-10-23",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Adela Paclisan",
+    "avatar": "./assets/contributors/adela-paclisan.webp",
+    "roles": [
+      {
+        "team": "QA",
+        "position": "Manual Tester",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "http://www.linkedin.com/in/adela-paclisan-9137782a3",
+      "github": "https://github.com/Adelapac",
+      "discord": "https://discordapp.com/users/1215008579128660080 "
+    },
+    "joinedAt": "2025-01-18",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Carina Băncilă",
+    "avatar": "./assets/contributors/carina-bancila.webp",
+    "roles": [
+      {
+        "team": "Core",
+        "position": "HR Manager",
+        "teamLead": false,
+        "status": true
+      },
+      {
+        "team": "HR",
+        "position": "HR Manager",
+        "teamLead": true,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/carina-bancila/",
+      "github": "https://github.com/carinabancila",
+      "discord": "https://discordapp.com/users/1466769241154912320 "
+    },
+    "joinedAt": "2026-04-25",
+    "joinedAtMethod": "first-issue"
+  },
+  {
+    "name": "Roxana Dejescu",
+    "avatar": "./assets/contributors/roxana-dejescu.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/roxana-dejescu-1505651b2/",
+      "github": "https://github.com/RoxanaD01",
+      "discord": "https://discord.com/users/839815221253505044"
+    },
+    "joinedAt": "2026-06-02",
+    "joinedAtMethod": "first-pull-request"
+  }
+]

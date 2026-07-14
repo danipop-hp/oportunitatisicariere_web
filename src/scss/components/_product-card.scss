@@ -1,0 +1,79 @@
+@use '../base' as *;
+@use './buttons' as *;
+
+.product-card {
+  position: relative;
+
+  @include flex(column, space-between, center);
+
+  gap: 2rem;
+  width: 300px;
+  height: 580px;
+
+  img {
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 2rem 8rem #c1c7d470;
+  }
+
+  span {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-bold;
+    background-color: $rose-500;
+    color: $neutral-100;
+  }
+
+  h3 {
+    font-size: $h3-font-size;
+    text-align: center;
+    font-weight: $font-weight-bold;
+  }
+
+  p {
+    font-size: $font-size-xxl;
+    font-weight: $font-weight-bold;
+    color: $neutral-500;
+  }
+
+  button {
+    @include primary-btn;
+  }
+}
+
+.top-seller-card {
+  @include flex(row, flex-start, center);
+
+  gap: 2rem;
+  width: 100%;
+
+  img {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  &__info {
+    @include flex(column, space-between, start);
+
+    gap: 0.75rem;
+
+    p {
+      font-size: $font-size-xl;
+      font-weight: $font-weight-regular;
+    }
+
+    .rating {
+      @include flex(row, flex-start, center);
+
+      gap: 0.5rem;
+
+      img {
+        width: 1rem;
+        height: 1rem;
+      }
+    }
+  }
+}

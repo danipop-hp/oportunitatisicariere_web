@@ -1,0 +1,310 @@
+@use '../base' as *;
+@use '../components/buttons' as *;
+
+.header {
+  background: $neutral-50;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease-in-out;
+  &.scrolled {
+    box-shadow: 0 4px 12px #00000010;
+  }
+
+  .schedule-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+
+    border: none;
+    border-radius: 1.2rem;
+    padding: 0;
+    width: 95%;
+    max-width: 900px;
+    background: $neutral-50;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+    &::backdrop {
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(4px);
+    }
+
+    .modal-content {
+      position: relative;
+      padding: 3rem 1.5rem;
+
+      @media (min-width: $breakpoint-md) {
+        padding: 4rem 3rem;
+      }
+
+      .modal-close-btn {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: none;
+        border: none;
+        font-size: 2.8rem;
+        color: $black;
+        cursor: pointer;
+        transition: color 0.2s;
+
+        @media (min-width: $breakpoint-md) {
+          top: 1.5rem;
+          right: 1.5rem;
+          font-size: 3.2rem;
+        }
+
+        &:hover {
+          color: $mint-500;
+        }
+      }
+
+      .schedule-header {
+        text-align: center;
+        @include flex(row, center, center);
+        margin-bottom: 2rem;
+
+        @media (min-width: $breakpoint-md) {
+          margin-bottom: 3rem;
+        }
+
+        .title {
+          font-size: 2.4rem;
+          color: $black;
+          margin-bottom: 0.5rem;
+
+          @media (min-width: $breakpoint-md) {
+            font-size: 2.8rem;
+          }
+        }
+      }
+
+      .schedule-section {
+        .schedule-days {
+          @include flex(row, space-between, stretch);
+          width: 100%;
+          gap: 0.8rem;
+
+          @media (min-width: $breakpoint-md) {
+            gap: 1.2rem;
+          }
+
+          .schedule-day {
+            flex: 1;
+            height: 5rem;
+            font-size: 1.6rem;
+            font-weight: 700;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 1.6rem;
+            @include soft-shadow;
+
+            color: $black;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+            letter-spacing: 0.5px;
+            @include flex(row, center, center);
+            padding: 0 0.5rem;
+
+            @media (min-width: $breakpoint-md) {
+              height: 6rem;
+              font-size: 1.6rem;
+              letter-spacing: 1px;
+              padding: 0 1rem;
+            }
+
+            .day-short {
+              display: inline;
+              @media (min-width: $breakpoint-md) {
+                display: none;
+              }
+            }
+
+            .day-long {
+              display: none;
+              @media (min-width: $breakpoint-md) {
+                display: inline;
+              }
+            }
+
+            &.active {
+              background-color: $mint-300;
+              border-color: $mint-300;
+              color: #ffffff;
+            }
+
+            &:hover:not(.active),
+            &:focus:not(.active) {
+              background-color: $mint-500;
+              color: #ffffff;
+              border-color: $mint-500;
+            }
+          }
+        }
+
+        .schedule-cards {
+          @include flex(column, flex-start, stretch);
+          margin-top: 2rem;
+          gap: 1rem;
+
+          @media (min-width: $breakpoint-md) {
+            @include flex(row, flex-start, stretch);
+            flex-wrap: wrap;
+            margin-top: 3rem;
+            gap: 1.2rem;
+          }
+
+          .schedule-card,
+          .weekend-card {
+            position: relative;
+            @include flex(column, center, center);
+            background-color: #ffffff;
+            min-height: 10rem;
+            width: 100%;
+            text-align: center;
+
+            border: none;
+            border-radius: 1.6rem;
+            padding: 1.5rem;
+            overflow: hidden;
+            @include soft-shadow;
+
+            @media (min-width: $breakpoint-md) {
+              min-height: 12rem;
+              flex: 1 1 calc(33.33% - 1.2rem);
+              max-width: 100%;
+            }
+          }
+
+          .schedule-card {
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+            text-decoration: none;
+
+            &__top {
+              font-size: 1.4rem;
+              font-weight: 600;
+              color: $black;
+              margin-bottom: 0.25rem;
+              letter-spacing: 1px;
+
+              @media (min-width: $breakpoint-md) {
+                font-size: 1.6rem;
+              }
+            }
+
+            &__middle {
+              font-size: 1.6rem;
+              font-weight: 700;
+              letter-spacing: 1px;
+              color: $mint-600;
+
+              @media (min-width: $breakpoint-md) {
+                font-size: 1.8rem;
+              }
+            }
+
+            &__bottom {
+              margin-top: 0.6rem;
+              font-size: 2rem;
+              font-weight: 700;
+              letter-spacing: 1px;
+              color: $black;
+
+              @media (min-width: $breakpoint-md) {
+                font-size: 2.2rem;
+              }
+            }
+
+            &.active {
+              background: $mint-300;
+
+              .schedule-card__top,
+              .schedule-card__bottom {
+                color: $blue-500;
+              }
+              .schedule-card__middle {
+                color: #ffffff;
+              }
+            }
+
+            &::after {
+              position: absolute;
+              content: attr(data-label);
+              top: 20%;
+              left: 0;
+              width: 100%;
+              text-align: center;
+              color: #ffffff;
+              font-size: 1.8rem;
+              font-weight: 700;
+              opacity: 0;
+              transition: opacity 0.2s;
+              z-index: 2;
+
+              @media (min-width: $breakpoint-md) {
+                font-size: 2.2rem;
+              }
+            }
+
+            &::before {
+              position: absolute;
+              content: '';
+              bottom: 15%;
+              left: 50%;
+              transform: translateX(-50%);
+              background: url('../assets/Icons/round-table.png') no-repeat center center;
+              background-size: contain;
+              width: 4rem;
+              height: 4rem;
+              opacity: 0;
+              transition: opacity 0.2s;
+              z-index: 2;
+
+              @media (min-width: $breakpoint-md) {
+                width: 5rem;
+                height: 5rem;
+              }
+            }
+
+            &:hover,
+            &:focus {
+              background-color: $mint-600;
+
+              .schedule-card__top,
+              .schedule-card__middle,
+              .schedule-card__bottom {
+                visibility: hidden;
+              }
+
+              &::after,
+              &::before {
+                opacity: 1;
+              }
+            }
+          }
+
+          .weekend-card {
+            padding: 2.4rem;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            font-weight: 600;
+
+            @media (min-width: $breakpoint-md) {
+              font-size: 1.8rem;
+              line-height: 2.8rem;
+            }
+
+            span {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}

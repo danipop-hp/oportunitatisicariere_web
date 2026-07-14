@@ -1,0 +1,123 @@
+@use 'sass:color';
+@use 'sass:meta';
+
+@function with-alpha($color, $alpha) {
+  @if meta.type-of($color) != 'color' {
+    @error 'Invalid color passed to `with-alpha`: #{$color} is a #{meta.type-of($color)}.';
+  }
+  @if meta.type-of($alpha) != 'number' or $alpha < 0 or $alpha > 1 {
+    @error 'Invalid alpha value passed to `with-alpha`: #{$alpha} must be a number between 0 and 1.';
+  }
+  @return color.change($color, $alpha: $alpha);
+}
+// Example of usage
+//   background-color: with-alpha($blue-500, 0.75);
+
+// Rose Color
+$rose-100: #fadceb;
+$rose-200: #f4b3d6;
+$rose-300: #e685b9;
+$rose-400: #d3569b;
+$rose-500: #b92770;
+$rose-600: #931f5a;
+$rose-700: #6d1643;
+$rose-800: #460e2c;
+
+// Amber Color
+$amber-100: #fef3d9;
+$amber-200: #fce6ad;
+$amber-300: #facb6b;
+$amber-400: #f7c042;
+$amber-500: #f5b423;
+$amber-600: #d39213;
+$amber-700: #b1770f;
+$amber-800: #8e5c0c;
+
+// Foundation
+$white: #ffffff;
+$black: #000000;
+
+// Neutral
+$neutral-50: #fdfdfd;
+$neutral-100: #f7f7f7;
+$neutral-200: #f4f4f4;
+$neutral-300: #eeeeee;
+$neutral-400: #ebebeb;
+$neutral-500: #e6e6e6;
+$neutral-600: #d1d1d1;
+$neutral-700: #a3a3a3;
+$neutral-800: #7f7f7f;
+$neutral-900: #616161;
+
+// Blue
+$blue-50: #e8eaef;
+$blue-100: #b9bdcd;
+$blue-200: #979db4;
+$blue-300: #687192;
+$blue-400: #4a557d;
+$blue-500: #1d2b5d;
+$blue-600: #1a2755;
+$blue-700: #151f42;
+$blue-800: #101833;
+$blue-900: #0c1227;
+
+// Teal
+$teal-50: #eaf0f2;
+$teal-100: #bed1d8;
+$teal-200: #9ebac5;
+$teal-300: #729baa;
+$teal-400: #568799;
+$teal-500: #2c6980;
+$teal-600: #286074;
+$teal-700: #1f4b5b;
+$teal-800: #183a46;
+$teal-900: #122c36;
+
+// Mint
+$mint-50: #eaf2f1;
+$mint-100: #bfd5d4;
+$mint-200: #9fc1bf;
+$mint-300: #48afab;
+$mint-400: #59948f;
+$mint-500: #2f7973;
+$mint-600: #2b6e69;
+$mint-700: #215652;
+$mint-800: #1a433f;
+$mint-900: #143330;
+
+// Social
+$linkedin-blue: #0a66c2;
+$discord-purple: #738adb;
+
+// Flag colors
+$ro-blue: #002b7f;
+$ro-yellow: #fcd116;
+$ro-red: #ce1126;
+
+// Semantic Font Sizes
+$font-size-sm: 1.4rem;
+$font-size-base: 1.6rem;
+$font-size-lg: 1.8rem;
+$font-size-xl: 2.4rem;
+$font-size-xxl: 3.6rem;
+
+// Heading Font Sizes
+$h6-font-size: 1.2rem;
+$h5-font-size: 1.4rem;
+$h4-font-size: 1.6rem;
+$h3-font-size: 1.8rem;
+$h2-font-size: 2rem;
+$h1-font-size: 2.4rem;
+
+// Font Weights
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1440px;

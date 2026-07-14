@@ -1,0 +1,81 @@
+@use '../base' as *;
+@use '../components/buttons' as *;
+
+.main-404 {
+  @include flex(column, center, center);
+  .error-hero {
+    min-height: 75vh;
+    @include flex(column, center, center);
+    padding: 4rem 2rem;
+
+    .hero__container {
+      @include flex(column, center, center);
+      gap: 4rem;
+      text-align: center;
+      width: 100%;
+      max-width: 1200px;
+
+      @media (min-width: $breakpoint-md) {
+        @include flex(row, space-evenly, center);
+        text-align: left;
+      }
+    }
+
+    .hero__content {
+      @include flex(column, center, center);
+      gap: 1.5rem;
+
+      @media (min-width: $breakpoint-md) {
+        align-items: flex-start;
+      }
+    }
+
+    .hero__title {
+      line-height: 1.1;
+
+      .brand-first {
+        font-size: 6rem;
+        line-height: 1;
+        color: $mint-500;
+
+        @media (min-width: $breakpoint-md) {
+          font-size: 8rem;
+        }
+      }
+    }
+
+    .hero__subtitle {
+      color: $neutral-800;
+      max-width: 500px;
+      margin-bottom: 1.5rem;
+    }
+
+    .error-btn {
+      @include primary-btn;
+      width: fit-content;
+    }
+
+    .hero__illustration {
+      @include flex(row, center, center);
+      width: 100%;
+
+      img {
+        width: 100%;
+        max-width: 320px;
+        border-radius: 2.4rem;
+        mix-blend-mode: multiply;
+
+        box-shadow: 0 8px 24px with-alpha($mint-500, 0.15);
+        transition: transform 0.3s ease;
+
+        @media (min-width: $breakpoint-md) {
+          max-width: 450px;
+        }
+
+        &:hover {
+          transform: translateY(-8px);
+        }
+      }
+    }
+  }
+}

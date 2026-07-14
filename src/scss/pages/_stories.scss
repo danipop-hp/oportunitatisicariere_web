@@ -1,0 +1,325 @@
+@use '../base' as *;
+@use '../components/buttons' as *;
+
+.main-stories {
+  @include flex(column, center, center);
+  background-color: $mint-50;
+  padding: 6rem 0;
+
+  // Header section
+  .section-header {
+    @include flex(column, center, center);
+    gap: 1.6rem;
+    max-width: 1024px;
+    margin: 0 auto 4.8rem;
+    text-align: center;
+
+    h1 {
+      font-size: $font-size-xxl;
+      font-weight: $font-weight-bold;
+      line-height: 1.2;
+
+      @media (min-width: $breakpoint-md) {
+        font-size: $font-size-xxl;
+      }
+    }
+
+    p {
+      font-size: $font-size-base;
+      line-height: 1.6;
+
+      @media (min-width: $breakpoint-md) {
+        font-size: $font-size-lg;
+      }
+    }
+  }
+
+  .stories-section {
+    @include flex(column, center, center);
+    gap: 4rem;
+    width: 100%;
+
+    // Main grid layout
+    .stories-grid {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 4rem;
+      width: 100%;
+
+      @media (min-width: 1240px) {
+        display: grid;
+        grid-template-columns: minmax(0, 7fr) minmax(320px, 3fr);
+        align-items: stretch;
+      }
+    }
+
+    // Carousel section
+    .stories-carousel {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      border-radius: 4rem;
+
+      @media (min-width: $breakpoint-lg) {
+        height: 100%;
+      }
+
+      .swiper-wrapper {
+        @media (min-width: $breakpoint-lg) {
+          align-items: stretch;
+          height: 100% !important;
+        }
+      }
+    }
+
+    // Individual slide and card
+    .story-slide {
+      height: auto;
+      display: flex;
+
+      &__card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        padding: 2.4rem;
+        border-radius: 3.2rem;
+        position: relative;
+        @include wrapping-shadow;
+
+        @media (min-width: $breakpoint-md) {
+          padding: 4rem;
+          border-radius: 4rem;
+        }
+      }
+
+      // Frosted glass container
+      &__glass {
+        flex: 1;
+        background: with-alpha($white, 0.4);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid with-alpha($white, 0.6);
+        border-radius: 2.4rem;
+        padding: 3.2rem;
+
+        @include flex(column);
+        gap: 3.2rem;
+
+        @media (min-width: $breakpoint-md) {
+          padding: 4.8rem;
+          border-radius: 3.2rem;
+          @include flex(row, flex-start, stretch);
+          gap: 4.8rem;
+        }
+      }
+
+      &__img-wrapper {
+        width: 100%;
+        max-width: 280px;
+        aspect-ratio: 4 / 5;
+        flex-shrink: 0;
+        border-radius: 2rem;
+        overflow: hidden;
+        box-shadow: 0 12px 24px with-alpha($black, 0.1);
+        margin: 0 auto;
+
+        @media (min-width: $breakpoint-md) {
+          margin: 0;
+          max-width: 320px;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      &__content {
+        flex: 1;
+        @include flex(column, center, flex-start);
+        color: $blue-900;
+
+        .name {
+          font-size: $font-size-xl;
+          font-weight: $font-weight-bold;
+          margin-bottom: 0.4rem;
+
+          @media (min-width: $breakpoint-md) {
+            font-size: $font-size-xxl;
+          }
+        }
+
+        .role {
+          font-size: $font-size-lg;
+          color: $neutral-800;
+          margin-bottom: 2.4rem;
+          font-weight: $font-weight-medium;
+        }
+
+        .quote {
+          font-size: $font-size-lg;
+          line-height: 1.7;
+
+          p {
+            margin-bottom: 1.6rem;
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+
+    // Random gradient generator
+    $color-pool: (
+      $amber-300,
+      $teal-200,
+      $blue-200,
+      $mint-200,
+      $rose-300,
+      $rose-200,
+      $rose-100,
+      $neutral-200,
+      $neutral-100
+    );
+    $angles: (0deg, 45deg, 90deg, 135deg, 180deg, 225deg, 270deg, 315deg);
+
+    @for $i from 1 through 30 {
+      $c1: nth($color-pool, random(length($color-pool)));
+      $c2: nth($color-pool, random(length($color-pool)));
+      $angle: nth($angles, random(length($angles)));
+
+      @while $c1 == $c2 {
+        $c2: nth($color-pool, random(length($color-pool)));
+      }
+
+      .swiper-slide:nth-child(#{$i}) .story-slide__card {
+        background: linear-gradient($angle, $c1, $c2);
+      }
+    }
+
+    // Carousel navigation
+    .stories-nav {
+      background-color: $white;
+      border-radius: 3.2rem;
+      padding: 1.2rem;
+      @include soft-shadow;
+      display: flex;
+      flex-direction: column;
+
+      @media (min-width: 1240px) {
+        padding: 2.4rem 1.2rem;
+        height: 0;
+        min-height: 100%;
+      }
+
+      &__title {
+        font-size: $font-size-xl;
+        font-weight: $font-weight-bold;
+        padding-bottom: 2.4rem;
+        text-align: center;
+        flex-shrink: 0;
+      }
+
+      &__list-wrapper {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-bottom: 0.8rem;
+
+        scrollbar-width: thin;
+        scrollbar-color: $mint-300 transparent;
+
+        &::-webkit-scrollbar {
+          height: 6px;
+          width: 6px;
+        }
+        &::-webkit-scrollbar-track {
+          background: transparent;
+        }
+        &::-webkit-scrollbar-thumb {
+          background-color: $mint-300;
+          border-radius: 10px;
+        }
+
+        @media (min-width: 1240px) {
+          flex: 1;
+          min-height: 0;
+          display: block;
+          overflow-x: hidden;
+          overflow-y: auto;
+          padding-right: 0.8rem;
+          padding-bottom: 0;
+        }
+      }
+
+      &__list {
+        display: flex;
+        flex-direction: row;
+        gap: 1.2rem;
+        width: max-content;
+
+        @media (min-width: 1240px) {
+          flex-direction: column;
+          width: 100%;
+        }
+
+        li {
+          list-style: none;
+        }
+
+        .story-nav-btn {
+          width: auto;
+          @include flex(row, flex-start, center);
+          gap: 1.6rem;
+          padding: 0.8rem 1.6rem 0.8rem 0.8rem;
+          border-radius: 5rem;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          transition: background-color 0.2s ease;
+          white-space: nowrap;
+
+          @media (min-width: $breakpoint-lg) {
+            width: 100%;
+          }
+
+          &:hover {
+            background-color: $mint-50;
+          }
+
+          &.active {
+            background-color: $mint-200;
+            border-radius: 5rem;
+
+            @media (min-width: 1240px) {
+              border-radius: 0 5rem 5rem 0;
+            }
+          }
+
+          &__avatar {
+            width: 5.6rem;
+            height: 5.6rem;
+            border-radius: 50%;
+            overflow: hidden;
+            flex-shrink: 0;
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+
+          &__name {
+            font-size: $font-size-base;
+            font-weight: $font-weight-semibold;
+            color: $blue-900;
+          }
+        }
+      }
+    }
+  }
+}

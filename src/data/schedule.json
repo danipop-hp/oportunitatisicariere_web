@@ -1,0 +1,103 @@
+[
+  {
+    "day": {
+      "full": "Luni",
+      "first": "L",
+      "last": "uni"
+    },
+    "meeting": [
+      {
+        "active": true,
+        "for": "Echipa de",
+        "team": "CYBERSECURITY",
+        "hour": "18:30",
+        "url": "https://meet.jit.si/PEVIITOR.RO"
+      }
+    ]
+  },
+  {
+    "day": {
+      "full": "Marți",
+      "first": "Ma",
+      "last": "rți"
+    },
+    "meeting": [
+      {
+        "active": true,
+        "for": "Echipa de",
+        "team": "BACK-END",
+        "hour": "18:00",
+        "url": "https://meet.jit.si/PEVIITOR.RO"
+      },
+      {
+        "active": true,
+        "for": "Echipa de",
+        "team": "DEVOPS",
+        "hour": "18:15",
+        "url": "https://meet.jit.si/PEVIITOR.RO"
+      },
+      {
+        "active": true,
+        "for": "Echipa de",
+        "team": "TESTARE",
+        "hour": "18:30",
+        "url": "https://meet.jit.si/PEVIITOR.RO"
+      },
+      {
+        "active": true,
+        "for": "Întâlnire generală",
+        "team": "TOȚI MEMBRII",
+        "hour": "19:00",
+        "url": "https://meet.jit.si/PEVIITOR.RO"
+      }
+    ]
+  },
+  {
+    "day": {
+      "full": "Miercuri",
+      "first": "Mi",
+      "last": "ercuri"
+    },
+    "meeting": [
+      {
+        "active": true,
+        "for": "Echipa",
+        "team": "CORE",
+        "hour": "19:30",
+        "url": "https://meet.jit.si/PEVIITOR.RO"
+      }
+    ]
+  },
+  {
+    "day": {
+      "full": "Joi",
+      "first": "J",
+      "last": "oi"
+    },
+    "meeting": [
+      {
+        "active": true,
+        "for": "Echipa de",
+        "team": "FRONT-END",
+        "hour": "18:30",
+        "url": "https://meet.jit.si/PEVIITOR.RO"
+      }
+    ]
+  },
+  {
+    "day": {
+      "full": "Vineri",
+      "first": "V",
+      "last": "ineri"
+    },
+    "meeting": [
+      {
+        "active": true,
+        "for": "Echipa de",
+        "team": "SCRAPING",
+        "hour": "18:30",
+        "url": "https://meet.jit.si/PEVIITOR.RO"
+      }
+    ]
+  }
+]

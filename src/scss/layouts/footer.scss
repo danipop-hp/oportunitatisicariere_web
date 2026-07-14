@@ -1,0 +1,148 @@
+@use '../base' as *;
+@use '../components/buttons' as *;
+
+.footer {
+  background: $neutral-50;
+  width: 100%;
+  padding: 3.2rem 0;
+  border-top: 1px solid $neutral-200;
+
+  &__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    @include flex(column, start, start);
+    gap: 3.2rem;
+
+    @media (min-width: $breakpoint-md) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas:
+        'logo nav'
+        'social legal'
+        'copyright copyright';
+      align-items: start;
+      row-gap: 3.2rem;
+    }
+  }
+
+  &__logo {
+    grid-area: logo;
+    @include flex(column, flex-start, flex-start);
+    gap: 1.6rem;
+
+    .footer__logo-link {
+      text-decoration: none;
+      line-height: 1.1;
+      font-size: $font-size-lg;
+      font-weight: $font-weight-bold;
+
+      .brand-first {
+        color: $mint-500;
+      }
+      .brand-second {
+        color: $blue-500;
+        text-transform: uppercase;
+      }
+    }
+
+    .footer__desc {
+      color: $neutral-800;
+      font-size: $font-size-sm;
+      line-height: 1.6;
+      max-width: 400px;
+    }
+
+    .footer__btn {
+      @include primary-btn;
+
+      i {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  &__nav {
+    grid-area: nav;
+    @media (min-width: $breakpoint-md) {
+      @include flex(row, flex-end, flex-start);
+    }
+
+    .footer__links {
+      @include flex(column, null, flex-start);
+      gap: 1.2rem;
+      @media (min-width: $breakpoint-md) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.2rem 3.6rem;
+      }
+
+      li a {
+        font-size: $font-size-base;
+        font-weight: $font-weight-medium;
+        color: $black;
+        transition: color 0.2s;
+        &:hover {
+          color: $mint-500;
+        }
+      }
+    }
+  }
+
+  &__social {
+    grid-area: social;
+    .social-icons {
+      @include flex(row, flex-start, center);
+      gap: 0.8rem;
+
+      .social-link {
+        @include icon-animation;
+      }
+    }
+  }
+
+  &__info-links {
+    grid-area: legal;
+    @media (min-width: $breakpoint-md) {
+      @include flex(row, flex-end, center);
+    }
+
+    ul {
+      @include flex(row, flex-start, center);
+      gap: 1.2rem;
+      flex-wrap: wrap;
+
+      @media (min-width: $breakpoint-md) {
+        @include flex(row, flex-end, center);
+      }
+      li {
+        border-right: 1px solid $neutral-400;
+        padding-right: 1.2rem;
+        &:last-child {
+          border: none;
+        }
+        a {
+          font-size: $font-size-sm;
+          color: $neutral-700;
+          transition: color 0.2s;
+          &:hover {
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+
+  &__copyright {
+    grid-area: copyright;
+    text-align: center;
+    width: 100%;
+    padding-top: 1.6rem;
+    border-top: 1px solid $neutral-200;
+
+    p {
+      color: $neutral-800;
+      font-size: $font-size-sm;
+    }
+  }
+}

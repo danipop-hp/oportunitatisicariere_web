@@ -1,0 +1,51 @@
+@use '../base' as *;
+
+@mixin primary-btn {
+  @include flex(row, center, center);
+  gap: 0.8rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 26px;
+  border: none;
+  color: $white;
+  font-size: $font-size-base;
+  font-weight: $font-weight-regular;
+  letter-spacing: 1px;
+  background-color: $mint-500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: $mint-700;
+    box-shadow: 0 0 0 1px $mint-300;
+  }
+
+  i {
+    font-size: 1.2em;
+    line-height: 1;
+  }
+}
+
+@mixin secondary-btn {
+  @include flex(row, center, center);
+  gap: 0.8rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 26px;
+  color: $mint-500;
+  border: 2px solid $mint-500;
+  font-size: $font-size-base;
+  font-weight: $font-weight-regular;
+  letter-spacing: 1px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: $mint-500;
+    color: $white;
+  }
+
+  i {
+    font-size: 1.2em;
+    line-height: 1;
+  }
+}
