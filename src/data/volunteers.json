@@ -35,11 +35,17 @@
     "avatar": "./assets/contributors/adriana-cionca.webp",
     "roles": [
       {
-        "team": "HR",
+        "team": "Core",
+        "position": "Project Manager",
+        "teamLead": false,
+        "status": false
+      },
+      {
+      "team": "HR",
         "position": "Project Manager",
         "teamLead": false,
         "status": true
-      }
+        }
     ],
     "socials": {
       "linkedin": "https://www.linkedin.com/in/adriana-cionca-63b14620a/",
@@ -157,9 +163,10 @@
         "status": true
       },
       {
+        "team": "Core",
         "position": "Scraping Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -248,9 +255,10 @@
     "avatar": "./assets/contributors/alex-stefan.webp",
     "roles": [
       {
+        "team": "Core",
         "position": "DevOps Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "DevOps",
@@ -567,9 +575,10 @@
         "status": true
       },
       {
+        "team": "Core",
         "position": "Front-end Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -698,9 +707,10 @@
         "status": true
       },
       {
+        "team": "Core",
         "position": "Manual Test Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "Data Quality",
@@ -841,9 +851,10 @@
         "status": true
       },
       {
+        "team": "Core",
         "position": "Manual Test Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -1090,9 +1101,10 @@
         "status": true
       },
       {
+        "team": "Core",
         "position": "Automation Test Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
