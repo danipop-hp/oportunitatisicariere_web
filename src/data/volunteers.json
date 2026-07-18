@@ -173,7 +173,9 @@
       "linkedin": "https://www.linkedin.com/in/andrei-cojocaru-985932204/",
       "github": "https://github.com/return1101",
       "discord": "https://discord.com/users/728326602618044438"
-    }
+    },
+    "joinedAt": "2024-02-17",
+    "joinedAtMethod": "first-pull-request"
   },
   {
     "name": "Adelina Guliman",
@@ -577,7 +579,7 @@
       {
         "team": "Front-end",
         "position": "Front-end Developer",
-        "teamLead": true,
+        "teamLead": false,
         "status": true
       },
       {
