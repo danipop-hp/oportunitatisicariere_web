@@ -3236,94 +3236,94 @@ p {
   margin-bottom: 0;
 }
 .main-stories .stories-section .swiper-slide:nth-child(1) .story-slide__card {
-  background: linear-gradient(180deg, #e685b9, #9ebac5);
+  background: linear-gradient(135deg, #f7f7f7, #979db4);
 }
 .main-stories .stories-section .swiper-slide:nth-child(2) .story-slide__card {
-  background: linear-gradient(225deg, #f4b3d6, #f4f4f4);
+  background: linear-gradient(315deg, #f4b3d6, #9ebac5);
 }
 .main-stories .stories-section .swiper-slide:nth-child(3) .story-slide__card {
-  background: linear-gradient(0deg, #facb6b, #9fc1bf);
+  background: linear-gradient(270deg, #9ebac5, #9fc1bf);
 }
 .main-stories .stories-section .swiper-slide:nth-child(4) .story-slide__card {
-  background: linear-gradient(180deg, #9fc1bf, #f4f4f4);
+  background: linear-gradient(180deg, #9fc1bf, #facb6b);
 }
 .main-stories .stories-section .swiper-slide:nth-child(5) .story-slide__card {
-  background: linear-gradient(270deg, #f4b3d6, #fadceb);
+  background: linear-gradient(0deg, #facb6b, #9ebac5);
 }
 .main-stories .stories-section .swiper-slide:nth-child(6) .story-slide__card {
-  background: linear-gradient(315deg, #f7f7f7, #f4f4f4);
+  background: linear-gradient(270deg, #facb6b, #9fc1bf);
 }
 .main-stories .stories-section .swiper-slide:nth-child(7) .story-slide__card {
-  background: linear-gradient(0deg, #9ebac5, #f4b3d6);
+  background: linear-gradient(180deg, #facb6b, #f7f7f7);
 }
 .main-stories .stories-section .swiper-slide:nth-child(8) .story-slide__card {
-  background: linear-gradient(315deg, #f7f7f7, #9fc1bf);
+  background: linear-gradient(180deg, #e685b9, #f4f4f4);
 }
 .main-stories .stories-section .swiper-slide:nth-child(9) .story-slide__card {
-  background: linear-gradient(315deg, #9ebac5, #979db4);
+  background: linear-gradient(45deg, #9fc1bf, #e685b9);
 }
 .main-stories .stories-section .swiper-slide:nth-child(10) .story-slide__card {
-  background: linear-gradient(270deg, #fadceb, #e685b9);
+  background: linear-gradient(90deg, #e685b9, #9ebac5);
 }
 .main-stories .stories-section .swiper-slide:nth-child(11) .story-slide__card {
-  background: linear-gradient(225deg, #e685b9, #9ebac5);
+  background: linear-gradient(180deg, #9ebac5, #e685b9);
 }
 .main-stories .stories-section .swiper-slide:nth-child(12) .story-slide__card {
-  background: linear-gradient(315deg, #f4f4f4, #e685b9);
+  background: linear-gradient(315deg, #9fc1bf, #979db4);
 }
 .main-stories .stories-section .swiper-slide:nth-child(13) .story-slide__card {
-  background: linear-gradient(0deg, #fadceb, #f4b3d6);
+  background: linear-gradient(180deg, #9ebac5, #f7f7f7);
 }
 .main-stories .stories-section .swiper-slide:nth-child(14) .story-slide__card {
-  background: linear-gradient(45deg, #9ebac5, #facb6b);
+  background: linear-gradient(315deg, #979db4, #e685b9);
 }
 .main-stories .stories-section .swiper-slide:nth-child(15) .story-slide__card {
-  background: linear-gradient(315deg, #f4f4f4, #f4b3d6);
+  background: linear-gradient(135deg, #f7f7f7, #fadceb);
 }
 .main-stories .stories-section .swiper-slide:nth-child(16) .story-slide__card {
-  background: linear-gradient(315deg, #f7f7f7, #9ebac5);
+  background: linear-gradient(0deg, #f4f4f4, #e685b9);
 }
 .main-stories .stories-section .swiper-slide:nth-child(17) .story-slide__card {
-  background: linear-gradient(90deg, #f4b3d6, #979db4);
+  background: linear-gradient(0deg, #fadceb, #f7f7f7);
 }
 .main-stories .stories-section .swiper-slide:nth-child(18) .story-slide__card {
-  background: linear-gradient(270deg, #f7f7f7, #979db4);
+  background: linear-gradient(180deg, #fadceb, #f4b3d6);
 }
 .main-stories .stories-section .swiper-slide:nth-child(19) .story-slide__card {
-  background: linear-gradient(135deg, #f4f4f4, #facb6b);
+  background: linear-gradient(270deg, #9ebac5, #e685b9);
 }
 .main-stories .stories-section .swiper-slide:nth-child(20) .story-slide__card {
-  background: linear-gradient(45deg, #9ebac5, #e685b9);
+  background: linear-gradient(270deg, #e685b9, #979db4);
 }
 .main-stories .stories-section .swiper-slide:nth-child(21) .story-slide__card {
-  background: linear-gradient(45deg, #facb6b, #fadceb);
+  background: linear-gradient(90deg, #facb6b, #979db4);
 }
 .main-stories .stories-section .swiper-slide:nth-child(22) .story-slide__card {
-  background: linear-gradient(135deg, #fadceb, #979db4);
+  background: linear-gradient(180deg, #facb6b, #f4b3d6);
 }
 .main-stories .stories-section .swiper-slide:nth-child(23) .story-slide__card {
-  background: linear-gradient(270deg, #9ebac5, #fadceb);
+  background: linear-gradient(180deg, #f7f7f7, #f4f4f4);
 }
 .main-stories .stories-section .swiper-slide:nth-child(24) .story-slide__card {
-  background: linear-gradient(315deg, #fadceb, #f4b3d6);
+  background: linear-gradient(135deg, #9fc1bf, #e685b9);
 }
 .main-stories .stories-section .swiper-slide:nth-child(25) .story-slide__card {
-  background: linear-gradient(135deg, #e685b9, #f4b3d6);
+  background: linear-gradient(90deg, #f4f4f4, #979db4);
 }
 .main-stories .stories-section .swiper-slide:nth-child(26) .story-slide__card {
-  background: linear-gradient(270deg, #e685b9, #f4b3d6);
+  background: linear-gradient(0deg, #e685b9, #facb6b);
 }
 .main-stories .stories-section .swiper-slide:nth-child(27) .story-slide__card {
-  background: linear-gradient(135deg, #fadceb, #f4b3d6);
+  background: linear-gradient(225deg, #979db4, #facb6b);
 }
 .main-stories .stories-section .swiper-slide:nth-child(28) .story-slide__card {
-  background: linear-gradient(45deg, #f7f7f7, #e685b9);
+  background: linear-gradient(180deg, #e685b9, #f4f4f4);
 }
 .main-stories .stories-section .swiper-slide:nth-child(29) .story-slide__card {
-  background: linear-gradient(135deg, #9fc1bf, #facb6b);
+  background: linear-gradient(90deg, #f7f7f7, #facb6b);
 }
 .main-stories .stories-section .swiper-slide:nth-child(30) .story-slide__card {
-  background: linear-gradient(0deg, #9fc1bf, #f7f7f7);
+  background: linear-gradient(315deg, #facb6b, #e685b9);
 }
 .main-stories .stories-section .stories-nav {
   background-color: #ffffff;
