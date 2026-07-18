@@ -7,7 +7,7 @@
         "team": "Core",
         "position": "Product Owner",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "Back-end",
@@ -41,11 +41,11 @@
         "status": false
       },
       {
-      "team": "HR",
+        "team": "HR",
         "position": "Project Manager",
         "teamLead": false,
         "status": true
-        }
+      }
     ],
     "socials": {
       "linkedin": "https://www.linkedin.com/in/adriana-cionca-63b14620a/",
@@ -111,7 +111,7 @@
         "team": "Core",
         "position": "CTO",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "Back-end",
@@ -171,7 +171,7 @@
     ],
     "socials": {
       "linkedin": "https://www.linkedin.com/in/andrei-cojocaru-985932204/",
-      "github": "https://github.com/andreireporter13",
+      "github": "https://github.com/return1101",
       "discord": "https://discord.com/users/728326602618044438"
     }
   },
@@ -239,7 +239,7 @@
         "team": "Core",
         "position": "Back-end Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -336,10 +336,16 @@
         "status": true
       },
       {
-        "team": "Core",
+        "team": "HR",
         "position": "Project Manager",
         "teamLead": false,
         "status": true
+      },
+      {
+        "team": "Core",
+        "position": "Project Manager",
+        "teamLead": false,
+        "status": false
       }
     ],
     "socials": {
@@ -685,7 +691,7 @@
         "team": "Core",
         "position": "Front-end Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -1465,7 +1471,7 @@
         "team": "Core",
         "position": "HR Manager",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "HR",
