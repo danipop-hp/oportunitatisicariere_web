@@ -1,0 +1,32 @@
+name: Update org stats
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # rulează zilnic la 03:00 UTC
+  workflow_dispatch:        # + permite rulare manuală din tab-ul Actions
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rulează scriptul de statistici
+        run: node scripts/update-stats.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commite stats.json dacă s-a schimbat
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats.json
+          git diff --staged --quiet || git commit -m "chore: update org stats"
+          git push
