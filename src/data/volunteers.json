@@ -1494,5 +1494,24 @@
     },
     "joinedAt": "2026-06-02",
     "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Daniel-Vasile Pop",
+    "avatar": "./assets/contributors/daniel-vasile-pop.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/pop-daniel-vasile-a0292a373/",
+      "github": "https://github.com/danipop-hp",
+      "discord": "https://discord.com/users/1052266031630000138"
+    },
+    "joinedAt": "2026-07-14",
+    "joinedAtMethod": "first-pull-request"
   }
 ]
