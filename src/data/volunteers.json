@@ -7,7 +7,7 @@
         "team": "Core",
         "position": "Product Owner",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "Back-end",
@@ -36,6 +36,12 @@
     "roles": [
       {
         "team": "Core",
+        "position": "Project Manager",
+        "teamLead": false,
+        "status": false
+      },
+      {
+        "team": "HR",
         "position": "Project Manager",
         "teamLead": false,
         "status": true
@@ -105,7 +111,7 @@
         "team": "Core",
         "position": "CTO",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "Back-end",
@@ -160,14 +166,16 @@
         "team": "Core",
         "position": "Scraping Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
       "linkedin": "https://www.linkedin.com/in/andrei-cojocaru-985932204/",
-      "github": "https://github.com/andreireporter13",
+      "github": "https://github.com/return1101",
       "discord": "https://discord.com/users/728326602618044438"
-    }
+    },
+    "joinedAt": "2024-02-17",
+    "joinedAtMethod": "first-pull-request"
   },
   {
     "name": "Adelina Guliman",
@@ -233,7 +241,7 @@
         "team": "Core",
         "position": "Back-end Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -252,7 +260,7 @@
         "team": "Core",
         "position": "DevOps Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "DevOps",
@@ -330,10 +338,16 @@
         "status": true
       },
       {
-        "team": "Core",
+        "team": "HR",
         "position": "Project Manager",
         "teamLead": false,
         "status": true
+      },
+      {
+        "team": "Core",
+        "position": "Project Manager",
+        "teamLead": false,
+        "status": false
       }
     ],
     "socials": {
@@ -565,14 +579,14 @@
       {
         "team": "Front-end",
         "position": "Front-end Developer",
-        "teamLead": true,
+        "teamLead": false,
         "status": true
       },
       {
         "team": "Core",
         "position": "Front-end Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -679,7 +693,7 @@
         "team": "Core",
         "position": "Front-end Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -704,7 +718,7 @@
         "team": "Core",
         "position": "Manual Test Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "Data Quality",
@@ -848,7 +862,7 @@
         "team": "Core",
         "position": "Manual Test Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -1098,7 +1112,7 @@
         "team": "Core",
         "position": "Automation Test Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -1459,7 +1473,7 @@
         "team": "Core",
         "position": "HR Manager",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "HR",
