@@ -7,7 +7,7 @@
         "team": "Core",
         "position": "Product Owner",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "Back-end",
@@ -41,11 +41,11 @@
         "status": false
       },
       {
-      "team": "HR",
+        "team": "HR",
         "position": "Project Manager",
         "teamLead": false,
         "status": true
-        }
+      }
     ],
     "socials": {
       "linkedin": "https://www.linkedin.com/in/adriana-cionca-63b14620a/",
@@ -111,7 +111,7 @@
         "team": "Core",
         "position": "CTO",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "Back-end",
@@ -171,9 +171,11 @@
     ],
     "socials": {
       "linkedin": "https://www.linkedin.com/in/andrei-cojocaru-985932204/",
-      "github": "https://github.com/andreireporter13",
+      "github": "https://github.com/return1101",
       "discord": "https://discord.com/users/728326602618044438"
-    }
+    },
+    "joinedAt": "2024-02-17",
+    "joinedAtMethod": "first-pull-request"
   },
   {
     "name": "Adelina Guliman",
@@ -239,7 +241,7 @@
         "team": "Core",
         "position": "Back-end Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -336,10 +338,16 @@
         "status": true
       },
       {
-        "team": "Core",
+        "team": "HR",
         "position": "Project Manager",
         "teamLead": false,
         "status": true
+      },
+      {
+        "team": "Core",
+        "position": "Project Manager",
+        "teamLead": false,
+        "status": false
       }
     ],
     "socials": {
@@ -571,7 +579,7 @@
       {
         "team": "Front-end",
         "position": "Front-end Developer",
-        "teamLead": true,
+        "teamLead": false,
         "status": true
       },
       {
@@ -685,7 +693,7 @@
         "team": "Core",
         "position": "Front-end Lead",
         "teamLead": false,
-        "status": true
+        "status": false
       }
     ],
     "socials": {
@@ -1465,7 +1473,7 @@
         "team": "Core",
         "position": "HR Manager",
         "teamLead": false,
-        "status": true
+        "status": false
       },
       {
         "team": "HR",
@@ -1499,6 +1507,25 @@
       "discord": "https://discord.com/users/839815221253505044"
     },
     "joinedAt": "2026-06-02",
+    "joinedAtMethod": "first-pull-request"
+  },
+  {
+    "name": "Daniel-Vasile Pop",
+    "avatar": "./assets/contributors/daniel-vasile-pop.webp",
+    "roles": [
+      {
+        "team": "Front-end",
+        "position": "Front-end Developer",
+        "teamLead": false,
+        "status": true
+      }
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/pop-daniel-vasile-a0292a373/",
+      "github": "https://github.com/danipop-hp",
+      "discord": "https://discord.com/users/1052266031630000138"
+    },
+    "joinedAt": "2026-07-14",
     "joinedAtMethod": "first-pull-request"
   }
 ]
