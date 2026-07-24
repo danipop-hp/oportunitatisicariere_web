@@ -1,32 +1,35 @@
 name: Update org stats
-
+ 
 on:
   schedule:
-    - cron: '0 3 * * *'   # runs daily at 03:00 UTC
+    - cron: '0 3 1 * *'   # runs once a month, on the 1st, at 03:00 UTC
   workflow_dispatch:        # allows manual runs from the Actions tab
-
+ 
 permissions:
   contents: write
-
+  pull-requests: write
+ 
 jobs:
   update-stats:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
+ 
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-
+ 
       - name: Run stats script
         run: node scripts/update-stats.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit stats.json if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats.json
-          git diff --staged --quiet || git commit -m "chore: update org stats"
-          git push
+ 
+      - name: Create Pull Request with updated stats
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: update org stats"
+          title: "chore: update org stats"
+          body: "Automated update of projects/volunteers stats from GitHub GraphQL API."
+          branch: update-org-stats
+          delete-branch: true
