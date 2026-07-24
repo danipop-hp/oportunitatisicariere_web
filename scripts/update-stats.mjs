@@ -9,7 +9,7 @@ const org = 'peviitor-ro';
 const token = process.env.GITHUB_TOKEN;
 
 if (!token) {
-  console.error('Lipsește GITHUB_TOKEN din variabilele de mediu.');
+  console.error('Missing GITHUB_TOKEN environment variable.');
   process.exit(1);
 }
 
@@ -59,7 +59,6 @@ const runQuery = async (variables, attempt = 1) => {
   if (!res.ok) {
     if ((res.status === 502 || res.status === 504) && attempt < 4) {
       const waitMs = attempt * 2000;
-      console.warn(`  GitHub a raspuns cu ${res.status}, reincerc in ${waitMs}ms (incercarea ${attempt + 1})...`);
       await sleep(waitMs);
       return runQuery(variables, attempt + 1);
     }
@@ -76,7 +75,6 @@ const runQuery = async (variables, attempt = 1) => {
 };
 
 async function main() {
-  console.log(`Se preiau repo-urile publice + contribuitori pentru ${org}...`);
 
   let hasNextPage = true;
   let cursor = null;
@@ -99,7 +97,6 @@ async function main() {
 
     hasNextPage = repos.pageInfo.hasNextPage;
     cursor = repos.pageInfo.endCursor;
-    console.log(`  ... ${totalRepos} repo-uri procesate pana acum`);
   }
 
   const stats = {
@@ -109,10 +106,10 @@ async function main() {
   };
 
   writeFileSync('stats.json', JSON.stringify(stats, null, 2));
-  console.log('Salvat stats.json:', stats);
+  console.log('Saved stats.json:', stats);
 }
 
 main().catch((error) => {
-  console.error('Eroare fatala:', error);
+  console.error('Fatal error:', error);
   process.exit(1);
 });
